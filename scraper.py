@@ -78,6 +78,7 @@ KEYWORDS = [
     "vision zero", "street safety", "road diet", "road enhancement",
     "traffic calming", "speed limit", "speed camera", "speed cameras",
     "parking", "parking reform", "complete streets", "complete street",
+    "entertainment district", "downtown", "urban district", "mixed use", "mixed-use",
     "cycle track", "cycle tracks", "ada", "accessibility", "americans with disabilities",
     "heat", "heat mitigation", "urban heat", "tree", "trees", "canopy",
     "tree protection", "tree ordinance", "shade", "green infrastructure",
@@ -276,8 +277,16 @@ def extract_virtual_url(text: str) -> str:
     return ""
 
 # Pattern matching numbered agenda items like "3 Downtown Phoenix Entertainment District Page 15"
+# Format A (subcommittee TOC):  "3 Downtown Phoenix Entertainment District Page 15"
+# Format B (briefing letters):   "A. Presentation and discussion regarding..."
 AGENDA_ITEM_RE = re.compile(
-    r"^\s*(\d{1,2})\s+([A-Z][^\n]{15,120}?)(?:\s+Page\s+\d+)?\s*$",
+    r"^\s*(?:(\d{1,2})\.?|([A-F])\.)\s+([A-Z#][^\n]{10,150}?)(?:\s+Page\s+\d+)?\s*$",
+    re.MULTILINE,
+)
+
+# Planning Commission case blocks — captures proposal text including wrapped lines
+PC_CASE_RE = re.compile(
+    r"(\d+)\.\s+Application\s+#:\s+(\S+)[^\n]*(?:\n[^\n]+)*?\nProposal:\s+([^\n]+(?:\n(?!Applicant:|Owner:|Representative:|From:|To:|Acreage:|Location:|\d+\.)[^\n]+)?)",
     re.MULTILINE,
 )
 
@@ -328,27 +337,43 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
 
                 agenda_text += page_text + "\n"
 
-            # Strategy 1: extract numbered agenda items from TOC
+            # Strategy 1a: Planning Commission case blocks
+            # Format: '4. Application #: Z-2-26-6 ... Proposal: Historic Preservation...'
+            for m in PC_CASE_RE.finditer(agenda_text):
+                item_num = m.group(1)
+                app_num  = m.group(2)
+                proposal = (m.group(3) or '').strip()
+                title = f'Item {item_num}: Application {app_num}'
+                if proposal:
+                    title += f' — {proposal[:80]}'
+                # Collapse any wrapped lines in proposal text
+                proposal_clean = re.sub(r"\s*\n\s*", " ", proposal).strip()
+                title_clean = re.sub(r"\s*\n\s*", " ", title).strip()
+                if proposal_clean and proposal_clean not in title_clean:
+                    title_clean = title_clean.split(" — ")[0] + f" — {proposal_clean[:80]}"
+                kws = keywords_in(title_clean + " " + proposal_clean)
+                key = title_clean[:50].lower()
+                if kws and key not in seen:
+                    seen.add(key)
+                    items.append(AgendaItem(title=title_clean, matched_keywords=kws))
+
+            # Strategy 1b: numbered/lettered TOC items (subcommittees, briefings)
             for m in AGENDA_ITEM_RE.finditer(agenda_text):
-                item_num   = m.group(1)
-                item_title = m.group(2).strip()
-                item_title = re.sub(r"\s+", " ", item_title)
-                # Skip very short or obviously non-title lines
+                item_num   = m.group(1) or m.group(2)
+                item_title = m.group(3).strip()
+                item_title = re.sub(r'\s+', ' ', item_title)
                 if len(item_title) < 8:
                     continue
-                # Normalize key: strip number prefix and trailing page ref
-                clean_title = re.sub(r"\s+Page\s+\d+\s*$", "", item_title).strip()
-                # Key = first 50 chars of title words only (no number prefix)
+                clean_title = re.sub(r'\s+Page\s+\d+\s*$', '', item_title).strip()
                 key = clean_title[:50].lower()
                 if key not in seen:
                     seen.add(key)
                     kws = keywords_in(clean_title)
                     if kws:
                         items.append(AgendaItem(
-                            title=f"Item {item_num}: {clean_title}",
+                            title=f'Item {item_num}: {clean_title}',
                             matched_keywords=kws,
                         ))
-
             # Strategy 2: keyword scan across all agenda pages
             for line in agenda_text.split("\n"):
                 line = line.strip()
@@ -358,14 +383,38 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
                 if len(line) > 20 and len(set(line.replace(" ", ""))) < len(line) * 0.25:
                     continue
                 kws = keywords_in(line)
-                # Skip section headers (all caps, short) and attachment filenames
+                # Skip section headers (all caps, short)
                 if line.isupper() and len(line.split()) <= 6:
                     continue
+                # Skip attachment filenames
                 if re.match(r"Attachment [A-Z]\s*[-—]", line):
                     continue
-                # Normalize: strip leading item numbers and trailing page refs
-                norm = re.sub(r"^\d{1,2}\s+", "", line)
+                # Skip URL fragments and file paths
+                if re.search(r"https?://|www\.|/pdd/|pzstaff-reports|pud-cases", line):
+                    continue
+                # Skip continuation lines and already-captured PC case fields
+                if re.match(r"^(Proposal:|Applicant:|From:|To:|Owner:|Representative:|Acreage:|\()", line):
+                    continue
+                # Skip lines that start mid-sentence (Amendment of, Initiation of, etc.)
+                if re.match(r"^(Amendment|Initiation|Continuation|Rescinding|Adoption|Implementation)\s+of\b", line):
+                    continue
+                # Skip boilerplate lines (ARS references, contact info, instructions)
+                if re.search(
+                    r"A\.R\.S\.|please\s+visit|please\s+log|48-hour|please\s+contact"
+                    r"|staff\s+reports?\s+are|staff\s+memos|addendums?\s+and"
+                    r"|applicant:|owner:|representative:|acreage:|from:|to:|location:"
+                    r"|if\s+appealed|ordinance\s+adoption\s+will\s+be"
+                    r"|pursuant\s+to|notice\s+is\s+hereby"
+                    r"|roman numeral|^(I|II|III|IV|V|VI|VII|VIII|IX|X)\.",
+                    line, re.IGNORECASE
+                ):
+                    continue
+                # Skip lines that are clearly not agenda items (too short after stripping)
+                norm = re.sub(r"^\d{1,2}\.?\s+", "", line)        # strip "3. " or "3 "
+                norm = re.sub(r"^[A-F]\.\s+", "", norm)             # strip "A. "
                 norm = re.sub(r"\s+Page\s+\d+\s*$", "", norm).strip()
+                if len(norm) < 15:
+                    continue
                 key = norm[:50].lower()
                 if kws and key not in seen:
                     seen.add(key)
