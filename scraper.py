@@ -67,13 +67,18 @@ KEYWORDS = [
     "density", "multifamily", "accessory dwelling", "adu", "infill",
     "building code", "building codes", "construction code", "single stair",
     "fire code", "code reform", "development standard", "code amendment",
-    "transit", "light rail", "bus rapid transit", "brt", "bus route",
+    "transit", "light rail", "bus rapid transit", "brt", "bus route", "bus",
+    "high-capacity transit", "high capacity transit",
+    "transit oriented development", "transit oriented community",
+    "transit oriented communities", "tod",
+    "prop 400", "prop 479", "proposition 400", "proposition 479",
     "transportation", "mobility", "commuter", "fare",
     "walkability", "walkable", "pedestrian", "sidewalk", "sidewalks",
     "crosswalk", "crosswalks", "bike lane", "bike lanes", "bicycle",
     "vision zero", "street safety", "road diet", "road enhancement",
     "traffic calming", "speed limit", "speed camera", "speed cameras",
     "parking", "parking reform", "complete streets", "complete street",
+    "cycle track", "cycle tracks", "ada", "accessibility", "americans with disabilities",
     "heat", "heat mitigation", "urban heat", "tree", "trees", "canopy",
     "tree protection", "tree ordinance", "shade", "green infrastructure",
     "climate", "sustainability", "environment", "environmental",
@@ -112,22 +117,24 @@ PHOENIX_BOARDS_KEYWORDS = [
 ]
 
 # MAG committee pages (calendar is JS-gated; individual pages sometimes load)
+# MAG is fully behind Cloudflare — no API accessible from GitHub Actions.
+# We link directly to their calendar and known event URL pattern.
+# When MAG posts agendas they use /Event/XXXXX URLs (e.g. azmag.gov/Event/52083).
+# The calendar page lists all upcoming events with those IDs.
+MAG_CALENDAR_URL = "https://azmag.gov/About-Us/Calendar"
 MAG_COMMITTEE_PAGES = {
-    "MAG Regional Council": (
-        "https://azmag.gov/Committees/Policy-Committees/Regional-Council"
-    ),
-    "MAG Regional Council Executive Committee": (
-        "https://azmag.gov/Committees/Policy-Committees/Regional-Council-Executive-Committee"
-    ),
-    "MAG Transportation Policy Committee": (
-        "https://azmag.gov/Committees/Policy-Committees/Transportation-Policy-Committee"
-    ),
-    "MAG Environment & Sustainable Communities Committee": (
-        "https://azmag.gov/Committees/Policy-Committees/Environment-Sustainable-Communities-Committee"
-    ),
-    "MAG Human Services & Public Safety Committee": (
-        "https://azmag.gov/Committees/Policy-Committees/Human-Services-Public-Safety-Committee"
-    ),
+    "MAG Regional Council":
+        "https://azmag.gov/About-Us/Calendar",
+    "MAG Regional Council Executive Committee":
+        "https://azmag.gov/About-Us/Calendar",
+    "MAG Transportation Policy Committee":
+        "https://azmag.gov/About-Us/Calendar",
+    "MAG Environment & Sustainable Communities Committee":
+        "https://azmag.gov/About-Us/Calendar",
+    "MAG Active Transportation Committee":
+        "https://azmag.gov/About-Us/Calendar",
+    "MAG Human Services & Public Safety Committee":
+        "https://azmag.gov/About-Us/Calendar",
 }
 
 # ── Data model ────────────────────────────────────────────────────────────────
@@ -239,6 +246,87 @@ def scan_pdf(url: str) -> list[AgendaItem]:
         return []
 
 
+# ── Phoenix City Clerk PDF discovery ─────────────────────────────────────────
+PHOENIX_PDF_BASE = (
+    "https://www.phoenix.gov/content/dam/phoenix/"
+    "cityclerksite/publicmeetings/notices/{year}/{month}/{yy}{mm}{dd}{seq:03d}.pdf"
+)
+MONTH_NAMES = {
+    1:"january",2:"february",3:"march",4:"april",5:"may",6:"june",
+    7:"july",8:"august",9:"september",10:"october",11:"november",12:"december"
+}
+
+def find_phoenix_pdfs(dt: date) -> list[tuple[str, str]]:
+    """
+    Probe the Phoenix City Clerk PDF directory for a given date.
+    Returns list of (url, first_page_text) for each PDF found.
+    Stops at the first 404. Caps at 15 per day.
+    """
+    results = []
+    yy = str(dt.year)[2:]
+    mm = f"{dt.month:02d}"
+    dd = f"{dt.day:02d}"
+    month_name = MONTH_NAMES[dt.month]
+    year = str(dt.year)
+
+    for seq in range(1, 16):
+        url = PHOENIX_PDF_BASE.format(
+            year=year, month=month_name,
+            yy=yy, mm=mm, dd=dd, seq=seq
+        )
+        r = get(url, headers={"Accept": "application/pdf"})
+        if not r or r.status_code == 404:
+            break
+        text = ""
+        if PDF_SUPPORT:
+            try:
+                import io
+                with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+                    text = (pdf.pages[0].extract_text() or "")[:600]
+            except Exception:
+                pass
+        results.append((url, text))
+    return results
+
+def match_legistar_to_pdf(body: str, dt: date) -> str:
+    """
+    Try to find the Phoenix City Clerk PDF that matches a given Legistar body name.
+    Returns the PDF URL if found, otherwise returns empty string.
+    """
+    pdfs = find_phoenix_pdfs(dt)
+    if not pdfs:
+        return ""
+
+    # Build match terms from body name
+    body_lower = body.lower()
+    match_terms = []
+    if "city council formal" in body_lower:
+        match_terms = ["city council", "formal"]
+    elif "subcommittee" in body_lower or "policy session" in body_lower:
+        # Extract key word from subcommittee name
+        words = [w for w in body_lower.split() if len(w) > 4
+                 and w not in ("subcommittee","committee","session","meeting")]
+        match_terms = words[:2]
+    elif "planning commission" in body_lower:
+        match_terms = ["planning commission"]
+    elif "budget" in body_lower:
+        match_terms = ["budget"]
+    else:
+        match_terms = [w for w in body_lower.split() if len(w) > 4][:3]
+
+    for url, text in pdfs:
+        text_lower = text.lower()
+        if all(term in text_lower for term in match_terms):
+            log.info(f"    Matched PDF: {url.split('/')[-1]} for '{body}'")
+            return url
+
+    # No exact match — return the first PDF for Council meetings,
+    # otherwise return empty so we fall back to City Clerk notices page
+    if "city council" in body_lower and pdfs:
+        return pdfs[0][0]
+    return ""
+
+
 # ── Scraper 1: City of Phoenix — Legistar REST API ────────────────────────────
 def scrape_phoenix_legistar() -> list[Meeting]:
     log.info("Scraping City of Phoenix — Legistar API…")
@@ -284,11 +372,19 @@ def scrape_phoenix_legistar() -> list[Meeting]:
 
         location    = ev.get("EventLocation") or "Phoenix City Hall, 200 W. Washington St."
         virtual_url = extract_virtual_url(location + " " + (ev.get("EventInSiteURL") or ""))
-        agenda_file = ev.get("EventAgendaFile") or ""
-        agenda_url  = agenda_file or (
-            f"https://phoenix.legistar.com/MeetingDetail.aspx"
-            f"?ID={ev.get('EventId','')}&GUID={ev.get('EventGuid','')}&Options=info|&Search="
+
+        # Try to find the actual PDF on the City Clerk's server
+        try:
+            pdf_url = match_legistar_to_pdf(body, date.fromisoformat(iso_date))
+        except Exception:
+            pdf_url = ""
+
+        agenda_file = pdf_url or ev.get("EventAgendaFile") or ""
+        clerk_notices = (
+            "https://www.phoenix.gov/administration/departments/cityclerk"
+            "/programs-services/other-public-meetings/notices.html"
         )
+        agenda_url = agenda_file or clerk_notices
 
         items = scan_pdf(agenda_file)
         if not items:
@@ -298,7 +394,6 @@ def scrape_phoenix_legistar() -> list[Meeting]:
                     title=f"(Full agenda — body matched: {', '.join(kws)})",
                     matched_keywords=kws,
                 )]
-
         meetings.append(Meeting(
             body=body, date=iso_date, time=time_str,
             location=location, virtual_url=virtual_url, agenda_url=agenda_url,
@@ -308,40 +403,104 @@ def scrape_phoenix_legistar() -> list[Meeting]:
     return meetings
 
 
-# ── Scraper 2: City of Phoenix — Boards & Commissions notice page ─────────────
+# ── Scraper 2: City of Phoenix — Boards & Commissions (JSON API) ─────────────
+PHOENIX_NOTICES_API = (
+    "https://www.phoenix.gov/administration/departments/cityclerk/programs-services"
+    "/other-public-meetings/notices/_jcr_content/root/container/container-nav"
+    "/container-full-width/container-content/public_meeting_table.results.json"
+)
+PHOENIX_NOTICES_PAGE = (
+    "https://www.phoenix.gov/administration/departments/cityclerk"
+    "/programs-services/other-public-meetings/notices.html"
+)
+
 def scrape_phoenix_boards() -> list[Meeting]:
-    log.info("Scraping City of Phoenix — Boards & Commissions notices…")
+    """
+    Uses the City Clerk's JSON API that powers the public meeting notices table.
+    Returns all upcoming meetings matching our board/commission keyword list,
+    with direct links to agenda PDFs.
+    """
+    log.info("Scraping City of Phoenix — Boards & Commissions (JSON API)…")
     meetings = []
+
     r = get(
-        "https://www.phoenix.gov/administration/departments/cityclerk"
-        "/programs-services/other-public-meetings/notices.html"
+        PHOENIX_NOTICES_API,
+        params={
+            "offset": "0",
+            "limit": "200",
+            "orderby": "@jcr:content/metadata/meetingTime",
+            "sortorder": "asc",
+        },
+        headers={"Accept": "application/json"},
     )
     if not r:
+        log.warning("  Phoenix notices JSON API unavailable")
         return meetings
 
-    for link in BeautifulSoup(r.text, "html.parser").find_all("a", href=True):
-        text = link.get_text(" ", strip=True)
-        href = link["href"]
-        if not text or not any(kw.lower() in text.lower() for kw in PHOENIX_BOARDS_KEYWORDS):
+    try:
+        data = r.json()
+    except Exception:
+        log.warning("  Could not parse Phoenix notices JSON")
+        return meetings
+
+    results = data.get("results", [])
+    log.info(f"  Phoenix notices API returned {len(results)} items")
+
+    for item in results:
+        title = item.get("title", "").strip()
+        if not title:
             continue
 
-        parent   = link.find_parent("tr") or link.find_parent("li") or link.parent
-        row_text = parent.get_text(" ", strip=True) if parent else text
-        dm       = DATE_RE.search(row_text)
-        if not dm:
-            continue
-        dt = parse_date(dm.group(0))
-        if not dt or not in_window(dt):
+        # Skip cancelled meetings
+        if any(w in title.lower() for w in ["cancel", "cancelled", "canceled"]):
+            log.info(f"  Skipping cancelled: {title[:60]}")
             continue
 
-        full_url = href if href.startswith("http") else "https://www.phoenix.gov" + href
+        # Filter to boards/commissions we care about
+        if not any(kw.lower() in title.lower() for kw in PHOENIX_BOARDS_KEYWORDS):
+            continue
+
+        # Parse date/time from ISO timestamp
+        raw_time = (item.get("properties") or {}).get("metadata/meetingTime", "")
+        if not raw_time:
+            continue
+        try:
+            dt_obj = datetime.fromisoformat(raw_time.replace("Z", "+00:00"))
+            # Convert UTC to Arizona time (UTC-7, no DST)
+            from datetime import timezone
+            az_offset = timezone(timedelta(hours=-7))
+            dt_az = dt_obj.astimezone(az_offset)
+            iso_date = dt_az.date().isoformat()
+            time_str = dt_az.strftime("%-I:%M %p")
+        except Exception:
+            continue
+
+        if not in_window(date.fromisoformat(iso_date)):
+            continue
+
+        # Build PDF URL from the path field
+        path = item.get("url") or item.get("path") or ""
+        if path.startswith("/content/dam/"):
+            pdf_url = "https://www.phoenix.gov" + path
+        elif path.startswith("http"):
+            pdf_url = path
+        else:
+            pdf_url = PHOENIX_NOTICES_PAGE
+
+        items = scan_pdf(pdf_url)
+
         meetings.append(Meeting(
-            body=text[:120], date=dt.isoformat(), time="See notice",
-            location="City of Phoenix (see notice for location/virtual link)",
-            virtual_url="", agenda_url=full_url,
-            source_label="City of Phoenix", relevant_items=scan_pdf(full_url),
+            body=title,
+            date=iso_date,
+            time=time_str,
+            location="City of Phoenix (see notice PDF for location/virtual link)",
+            virtual_url="",
+            agenda_url=pdf_url,
+            source_label="City of Phoenix",
+            relevant_items=items,
         ))
-        log.info(f"  + {text[:60]}  {dt.isoformat()}")
+        log.info(f"  + {title[:60]}  {iso_date}  {time_str}")
+
     return meetings
 
 
@@ -436,13 +595,20 @@ def scrape_mag() -> list[Meeting]:
     for body_name, page_url in MAG_COMMITTEE_PAGES.items():
         r = get(page_url)
         if not r or "just a moment" in r.text.lower():
-            log.info(f"  MAG page blocked — placeholder for {body_name}")
+            log.info(f"  MAG blocked (Cloudflare) — placeholder for {body_name}")
             meetings.append(Meeting(
                 body=body_name, date="0000-00-00", time="Varies",
                 location="302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
-                virtual_url="https://azmag.gov/About-Us/Calendar",
-                agenda_url=page_url, source_label="MAG",
-                notes=f"Visit {page_url} for the current schedule and agendas.",
+                virtual_url=MAG_CALENDAR_URL,
+                agenda_url=MAG_CALENDAR_URL, source_label="MAG",
+                notes=(
+                    "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar "
+                    "for the full schedule. Each meeting links to an agenda packet and "
+                    "virtual attendance info. MAG committees relevant to UPP include: "
+                    "Regional Council (policy), Transportation Policy Committee, "
+                    "Active Transportation Committee, and Environment & Sustainable "
+                    "Communities Committee."
+                ),
             ))
             continue
 
