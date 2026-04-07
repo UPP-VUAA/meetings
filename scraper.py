@@ -979,7 +979,9 @@ def _badge(label: str) -> str:
 
 # ── Output: full webpage ──────────────────────────────────────────────────────
 def write_html_page(meetings: list[Meeting]) -> None:
-    generated = datetime.now().strftime("%A, %B %-d, %Y at %-I:%M %p")
+    from datetime import timezone
+    az_tz = timezone(timedelta(hours=-7))
+    generated = datetime.now(az_tz).strftime("%A, %B %-d, %Y at %-I:%M %p") + " AZ"
 
     confirmed    = [m for m in meetings if not m.is_placeholder]
     placeholders = [m for m in meetings if m.is_placeholder]
@@ -1217,8 +1219,7 @@ def write_digest(meetings: list[Meeting]) -> None:
   Published by
   <a href="https://urbanphoenixproject.org" style="color:#E9D73F;">Urban Phoenix Project</a> &amp;
   <a href="https://valleyurban.org" style="color:#E9D73F;">Valley Urban Action Alliance</a>.<br>
-  Always verify meeting details with the hosting agency.<br><br>
-  *|UNSUB|*
+  Always verify meeting details with the hosting agency.
 </td></tr>
 </table><!-- end UPP Meeting Digest -->"""
 
