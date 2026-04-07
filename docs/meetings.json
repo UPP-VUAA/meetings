@@ -1,8 +1,129 @@
 {
-  "generated": "2026-04-07T01:40:48.172438",
+  "generated": "2026-04-07T02:22:02.866952",
   "window_days": 28,
-  "count": 10,
+  "count": 13,
   "meetings": [
+    {
+      "body": "Planning Commission",
+      "date": "2026-04-06",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260406004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "NOTICE OF PUBLIC HEARING",
+          "matched_keywords": [
+            "public hearing"
+          ]
+        },
+        {
+          "title": "48-hour period. Due to the added demands of facilitating the virtual environment for the",
+          "matched_keywords": [
+            "environment"
+          ]
+        },
+        {
+          "title": "Rezoning and text amendment staff reports, addendums, and staff memos are available",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "zoning/pzservices/pzstaff-reports.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "PUD rezoning staff reports, narratives, addendums, and staff memos are available here:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "https://www.phoenix.gov/pdd/planning-zoning/pzservices/pud-cases.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Proposal: Minor General Plan Amendment to accommodate",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Applicant: John Buckel, MP Environmental Services, Inc.",
+          "matched_keywords": [
+            "environmental"
+          ]
+        },
+        {
+          "title": "REZONING CASES",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "Proposal: Historic Preservation Zoning Overlay for E.H. Coe",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "If appealed, the City Council public hearing will be held on May 6, 2026 at 2:30 p.m. If",
+          "matched_keywords": [
+            "public hearing"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Planning Commission Briefing",
+      "date": "2026-04-06",
+      "time": "4:30 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260406005.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "A. Presentation and discussion regarding updates on the General Plan Next",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "(Rio Salado District) Policy Plan and initiation of a new General Plan",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "B. Presentation, discussion, and possible initiation of a General Plan",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Amendment of the General Plan Land Use Map to be in alignment with the",
+          "matched_keywords": [
+            "general plan",
+            "land use"
+          ]
+        },
+        {
+          "title": "VI. TIME ALLOCATION FOR PUBLIC HEARING ITEMS ON THE EVENING",
+          "matched_keywords": [
+            "public hearing"
+          ]
+        }
+      ],
+      "notes": ""
+    },
     {
       "body": "Board of Supervisors - Planning and Zoning Agenda Items",
       "date": "2026-04-08",
@@ -20,9 +141,134 @@
       "time": "2:30 PM",
       "location": "phoenix.gov",
       "virtual_url": "",
-      "agenda_url": "https://phoenix.legistar.com/MeetingDetail.aspx?ID=2588&GUID=5ABF6C0D-B5B5-4E88-B4B8-F1EBD5D1105C&Options=info|&Search=",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260408001.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [],
+      "relevant_items": [
+        {
+          "title": "34 Issuance of Multifamily Housing Revenue Bonds Page 97",
+          "matched_keywords": [
+            "multifamily",
+            "housing"
+          ]
+        },
+        {
+          "title": "42 Amend Ordinance S-49626 for Federal Fiscal Year 2023 Page 114",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "43 Authorization to Accept Reallocated Federal Fiscal Year Page 115",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "TRANSPORTATION AND INFRASTRUCTURE",
+          "matched_keywords": [
+            "transportation"
+          ]
+        },
+        {
+          "title": "51 Street Transportation Department Right-Of-Way General Page 133",
+          "matched_keywords": [
+            "transportation"
+          ]
+        },
+        {
+          "title": "52 Street Transportation Department Soils and Materials Page 136",
+          "matched_keywords": [
+            "transportation"
+          ]
+        },
+        {
+          "title": "PLANNING AND ZONING MATTERS",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "66 Remove/Replace Zoning District - Rancho Grande - Page 165",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "67 Amend City Code - Official Supplementary Zoning Map Page 171",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Attachment A - Ordinance - Supplementary Zoning Map 1305.pdf",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "68 Amend City Code - Official Supplementary Zoning Map Page 175",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Attachment A - Draft Ordinance - Supplementary Zoning Map 1306.pdf",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "69 Amend City Code - Official Supplementary Zoning Map Page 179",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Attachment A - Ordinance - Supplementary Zoning Map 1307.pdf",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "70 Amend City Code - Ordinance Adoption - Rezoning Page 183",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "Application Z-82-25-5 (Canopy at the Trails PUD) -",
+          "matched_keywords": [
+            "canopy"
+          ]
+        },
+        {
+          "title": "71 Amend City Code - Ordinance Adoption - Rezoning Page 191",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "72 Public Hearing and Resolution Adoption - General Plan Page 203",
+          "matched_keywords": [
+            "public hearing",
+            "general plan"
+          ]
+        },
+        {
+          "title": "73 PCD Major Amendment and Public Hearing - Rezoning Page 228",
+          "matched_keywords": [
+            "public hearing",
+            "rezoning"
+          ]
+        },
+        {
+          "title": "74 Public Hearing and Ordinance Adoption - Rezoning Page 297",
+          "matched_keywords": [
+            "public hearing",
+            "rezoning"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
@@ -31,9 +277,132 @@
       "time": "10:00 AM",
       "location": "City Council Chambers",
       "virtual_url": "",
-      "agenda_url": "https://phoenix.legistar.com/MeetingDetail.aspx?ID=2559&GUID=889ABB8F-0F5D-4C0F-B6A6-7892E40A8162&Options=info|&Search=",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260408002.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [],
+      "relevant_items": [
+        {
+          "title": "Great Recession and this is because of intentional strategies, policies, land use",
+          "matched_keywords": [
+            "land use"
+          ]
+        },
+        {
+          "title": "and defense including emerging sectors like advanced air mobility and electronic and",
+          "matched_keywords": [
+            "mobility"
+          ]
+        },
+        {
+          "title": "work has resulted in 11 business locates this fiscal year with a goal of 12, over 2,600",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "activity in Mexico and has assisted over 812 businesses over the last five fiscal years,",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "and Council leadership, Phoenix has become a place where new mobility companies",
+          "matched_keywords": [
+            "mobility"
+          ]
+        },
+        {
+          "title": "entertainment district would provide conventioneers, visitors, and residents a walkable,",
+          "matched_keywords": [
+            "walkable"
+          ]
+        },
+        {
+          "title": "density of restaurants, bars, attractions, street performers, public art, significant",
+          "matched_keywords": [
+            "density"
+          ]
+        },
+        {
+          "title": "experience. Grounded in themes of public realm, mobility, real estate activation,",
+          "matched_keywords": [
+            "mobility"
+          ]
+        },
+        {
+          "title": "space, streetscape, shade, signage, marketing, funding, and governance. A detailed",
+          "matched_keywords": [
+            "shade"
+          ]
+        },
+        {
+          "title": "kkeeyy iinnffrraassssttttrrrruuuuccccttttuuuurrrreeee lllliiiikkkkeeee eeeennnnhhhhaaaannnncccceeeedddd sssshhhhaaaaddddeeee,,,, mmmmoooobbbbiility, signage, and pedestrian-",
+          "matched_keywords": [
+            "pedestrian"
+          ]
+        },
+        {
+          "title": "ggggrrrroooowwwwiiiinnnngggg rrrreeeessssiiiiddddeeeennnnttttiiiiaaaallll ppppooooppppuuuullllaaaattiioon, improve mobility and wayfinding",
+          "matched_keywords": [
+            "mobility"
+          ]
+        },
+        {
+          "title": "Downtown Phoenix Light Rail Station / Credit: Jared Murray via Unsplash 26",
+          "matched_keywords": [
+            "light rail"
+          ]
+        },
+        {
+          "title": "vibrant, walkable, and sustainable uuurrrbbbaaannn cccooorrreee ttthhhaaattt ccceeellleeebbbrrraaattteeesss ttthhheee uuunnniiiqqquuueee iiidddeeennntttiiitttyyy oof Phoenix.",
+          "matched_keywords": [
+            "walkable"
+          ]
+        },
+        {
+          "title": "vvveeennnuuueeesss,,, a growing residential community, and recent investments in mobility and shade",
+          "matched_keywords": [
+            "mobility",
+            "shade"
+          ]
+        },
+        {
+          "title": "create a dynamic urban environment where",
+          "matched_keywords": [
+            "environment"
+          ]
+        },
+        {
+          "title": "guided by principles of enhancing walkability,",
+          "matched_keywords": [
+            "walkability"
+          ]
+        },
+        {
+          "title": "promoting cultural vibrancy, ensuring sustainability,",
+          "matched_keywords": [
+            "sustainability"
+          ]
+        },
+        {
+          "title": "spaces, improve pedestrian experiences, and aaaccctttiiivvvaaattteee",
+          "matched_keywords": [
+            "pedestrian"
+          ]
+        },
+        {
+          "title": "Shade Phoenix: An Action Plan for",
+          "matched_keywords": [
+            "shade"
+          ]
+        },
+        {
+          "title": "Trees and Built Shade (2024)",
+          "matched_keywords": [
+            "trees",
+            "shade"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
@@ -59,15 +428,26 @@
       "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
     },
     {
+      "body": "MAG Active Transportation Committee",
+      "date": "0000-00-00",
+      "time": "Varies",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
+    },
+    {
       "body": "MAG Environment & Sustainable Communities Committee",
       "date": "0000-00-00",
       "time": "Varies",
       "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
       "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Committees/Policy-Committees/Environment-Sustainable-Communities-Committee",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
       "source_label": "MAG",
       "relevant_items": [],
-      "notes": "Visit https://azmag.gov/Committees/Policy-Committees/Environment-Sustainable-Communities-Committee for the current schedule and agendas."
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
     },
     {
       "body": "MAG Human Services & Public Safety Committee",
@@ -75,10 +455,10 @@
       "time": "Varies",
       "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
       "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Committees/Policy-Committees/Human-Services-Public-Safety-Committee",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
       "source_label": "MAG",
       "relevant_items": [],
-      "notes": "Visit https://azmag.gov/Committees/Policy-Committees/Human-Services-Public-Safety-Committee for the current schedule and agendas."
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
     },
     {
       "body": "MAG Regional Council",
@@ -86,10 +466,10 @@
       "time": "Varies",
       "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
       "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Committees/Policy-Committees/Regional-Council",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
       "source_label": "MAG",
       "relevant_items": [],
-      "notes": "Visit https://azmag.gov/Committees/Policy-Committees/Regional-Council for the current schedule and agendas."
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
     },
     {
       "body": "MAG Regional Council Executive Committee",
@@ -97,10 +477,10 @@
       "time": "Varies",
       "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
       "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Committees/Policy-Committees/Regional-Council-Executive-Committee",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
       "source_label": "MAG",
       "relevant_items": [],
-      "notes": "Visit https://azmag.gov/Committees/Policy-Committees/Regional-Council-Executive-Committee for the current schedule and agendas."
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
     },
     {
       "body": "MAG Transportation Policy Committee",
@@ -108,10 +488,10 @@
       "time": "Varies",
       "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003",
       "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Committees/Policy-Committees/Transportation-Policy-Committee",
+      "agenda_url": "https://azmag.gov/About-Us/Calendar",
       "source_label": "MAG",
       "relevant_items": [],
-      "notes": "Visit https://azmag.gov/Committees/Policy-Committees/Transportation-Policy-Committee for the current schedule and agendas."
+      "notes": "MAG meetings require manual check. Visit azmag.gov/About-Us/Calendar for the full schedule. Each meeting links to an agenda packet and virtual attendance info. MAG committees relevant to UPP include: Regional Council (policy), Transportation Policy Committee, Active Transportation Committee, and Environment & Sustainable Communities Committee."
     }
   ]
 }
