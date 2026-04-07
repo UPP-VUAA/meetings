@@ -336,14 +336,18 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
                 # Skip very short or obviously non-title lines
                 if len(item_title) < 8:
                     continue
-                key = item_title[:60]
+                # Normalize key: strip number prefix and trailing page ref
+                clean_title = re.sub(r"\s+Page\s+\d+\s*$", "", item_title).strip()
+                # Key = first 50 chars of title words only (no number prefix)
+                key = clean_title[:50].lower()
                 if key not in seen:
                     seen.add(key)
-                    kws = keywords_in(item_title)
-                    items.append(AgendaItem(
-                        title=f"Item {item_num}: {item_title}",
-                        matched_keywords=kws,
-                    ))
+                    kws = keywords_in(clean_title)
+                    if kws:
+                        items.append(AgendaItem(
+                            title=f"Item {item_num}: {clean_title}",
+                            matched_keywords=kws,
+                        ))
 
             # Strategy 2: keyword scan across all agenda pages
             for line in agenda_text.split("\n"):
@@ -354,7 +358,15 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
                 if len(line) > 20 and len(set(line.replace(" ", ""))) < len(line) * 0.25:
                     continue
                 kws = keywords_in(line)
-                key = line[:60]
+                # Skip section headers (all caps, short) and attachment filenames
+                if line.isupper() and len(line.split()) <= 6:
+                    continue
+                if re.match(r"Attachment [A-Z]\s*[-—]", line):
+                    continue
+                # Normalize: strip leading item numbers and trailing page refs
+                norm = re.sub(r"^\d{1,2}\s+", "", line)
+                norm = re.sub(r"\s+Page\s+\d+\s*$", "", norm).strip()
+                key = norm[:50].lower()
                 if kws and key not in seen:
                     seen.add(key)
                     items.append(AgendaItem(title=line[:220], matched_keywords=kws))
