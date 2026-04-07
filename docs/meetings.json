@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T02:46:23.736099",
+  "generated": "2026-04-07T03:06:26.128349",
   "window_days": 28,
   "count": 16,
   "meetings": [
@@ -12,12 +12,6 @@
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260406004.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
-        {
-          "title": "NOTICE OF PUBLIC HEARING",
-          "matched_keywords": [
-            "public hearing"
-          ]
-        },
         {
           "title": "48-hour period. Due to the added demands of facilitating the virtual environment for the",
           "matched_keywords": [
@@ -58,12 +52,6 @@
           "title": "Applicant: John Buckel, MP Environmental Services, Inc.",
           "matched_keywords": [
             "environmental"
-          ]
-        },
-        {
-          "title": "REZONING CASES",
-          "matched_keywords": [
-            "rezoning"
           ]
         },
         {
@@ -156,124 +144,80 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 1: City Council Formal Meeting Agenda April 8, 2026",
-          "matched_keywords": []
+          "title": "Item 34: Issuance of Multifamily Housing Revenue Bonds",
+          "matched_keywords": [
+            "multifamily",
+            "housing"
+          ]
         },
         {
-          "title": "Item 1: Mayor and Council Appointments to Boards and",
-          "matched_keywords": []
+          "title": "Item 42: Amend Ordinance S-49626 for Federal Fiscal Year 2023",
+          "matched_keywords": [
+            "fiscal"
+          ]
         },
         {
-          "title": "Item 2: Liquor License - Lupe - District 4",
-          "matched_keywords": []
+          "title": "Item 43: Authorization to Accept Reallocated Federal Fiscal Year",
+          "matched_keywords": [
+            "fiscal"
+          ]
         },
         {
-          "title": "Item 3: Liquor License - Turney Neighborhood Market - District 4",
-          "matched_keywords": []
+          "title": "Item 51: Street Transportation Department Right-Of-Way General",
+          "matched_keywords": [
+            "transportation"
+          ]
         },
         {
-          "title": "Item 4: Liquor License - Special Event - Pathway to Work -",
-          "matched_keywords": []
+          "title": "Item 52: Street Transportation Department Soils and Materials",
+          "matched_keywords": [
+            "transportation"
+          ]
         },
         {
-          "title": "Item 5: Liquor License - Special Event - St. Theresa Council No",
-          "matched_keywords": []
+          "title": "Item 66: Remove/Replace Zoning District - Rancho Grande -",
+          "matched_keywords": [
+            "zoning"
+          ]
         },
         {
-          "title": "Item 6: Liquor License - Cheba Hut Toasted Subs - District 6",
-          "matched_keywords": []
+          "title": "Item 67: Amend City Code - Official Supplementary Zoning Map",
+          "matched_keywords": [
+            "zoning"
+          ]
         },
         {
-          "title": "Item 7: Liquor License - Shake Shack #1771 - District 6",
-          "matched_keywords": []
+          "title": "Item 70: Amend City Code - Ordinance Adoption - Rezoning",
+          "matched_keywords": [
+            "rezoning"
+          ]
         },
         {
-          "title": "Item 8: Liquor License - Buckeye Market - District 7",
-          "matched_keywords": []
+          "title": "Item 72: Public Hearing and Resolution Adoption - General Plan",
+          "matched_keywords": [
+            "public hearing",
+            "general plan"
+          ]
         },
         {
-          "title": "Item 9: Liquor License - Oro De Sonora - District 7",
-          "matched_keywords": []
+          "title": "Item 73: PCD Major Amendment and Public Hearing - Rezoning",
+          "matched_keywords": [
+            "public hearing",
+            "rezoning"
+          ]
         },
         {
-          "title": "Item 10: Liquor License - Lynx Distribution - District 8",
-          "matched_keywords": []
+          "title": "Item 74: Public Hearing and Ordinance Adoption - Rezoning",
+          "matched_keywords": [
+            "public hearing",
+            "rezoning"
+          ]
         },
         {
-          "title": "Item 11: Liquor License - Tacos Del Pepe 2 LLC - District 8",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 12: Liquor License - AN Smoke Shop - District 3",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 13: Applied Economics, LLC",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 14: Regina Munro dba Medic A&P, Inc.",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 15: Duncor, LLC dba Summit West Signs",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 16: When to Work, LLC",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 17: Phoenix Employment Relations Board (PERB) Hearing",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 18: Settlement of Claim(s) Mangan v. City of Phoenix",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 19: Landscape Sprinkler and Irrigation Supplies Contract -",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 20: Cloud Solutions CTR046098 - Amendment (Ordinance",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 21: Acceptance and Dedication of Easements for Public",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 22: Acceptance of Easements for Drainage Purposes",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 23: Part- Time Television Engineering Services Contract -",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 24: Amendments to the City's Combined Classification and",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 25: Authorization to Enter Into Contract with Father Matters,",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 26: Retroactive Authorization to Apply for, Accept and",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 27: NFL FLAG Youth League Equipment and Apparel -",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 28: Event Equipment Rental Services - PKS-IFB-26-0175 (Ordinance",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 29: Lifeguard Uniforms Contract - PKS-IFB-26-0193 Request",
-          "matched_keywords": []
+          "title": "Application Z-82-25-5 (Canopy at the Trails PUD) -",
+          "matched_keywords": [
+            "canopy"
+          ]
         }
       ],
       "notes": ""
@@ -286,36 +230,7 @@
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260408002.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 1: Economic Development and Agenda April 8, 2026",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 1: Minutes of the Economic Development and the Arts",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 2: Arizona Department of Economic Security",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 3: Downtown Phoenix Entertainment District",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 4: Upcoming Events and Programs at Cultural",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 5: Phoenix Economic Overview and Update: Part 3 - Land,",
-          "matched_keywords": []
-        },
-        {
-          "title": "Item 5: Economic Development and the Arts Subcommittee",
-          "matched_keywords": []
-        }
-      ],
+      "relevant_items": [],
       "notes": ""
     },
     {
