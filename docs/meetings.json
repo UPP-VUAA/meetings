@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T03:43:19.715691",
+  "generated": "2026-04-07T03:55:24.932836",
   "window_days": 28,
   "count": 16,
   "meetings": [
@@ -155,7 +155,22 @@
         {
           "title": "Application Z-82-25-5 (Canopy at the Trails PUD) -",
           "matched_keywords": [
-            "canopy"
+            "canopy",
+            "budget",
+            "capital improvement",
+            "climate",
+            "downtown",
+            "environmental",
+            "fiscal",
+            "housing",
+            "mixed-use",
+            "multifamily",
+            "parking",
+            "public hearing",
+            "sustainability",
+            "transportation",
+            "trees",
+            "zoning"
           ]
         }
       ],
@@ -174,7 +189,28 @@
           "title": "Item 3: Downtown Phoenix Entertainment District",
           "matched_keywords": [
             "downtown",
-            "entertainment district"
+            "entertainment district",
+            "budget",
+            "canopy",
+            "climate",
+            "density",
+            "environment",
+            "fiscal",
+            "heat",
+            "housing",
+            "land use",
+            "mobility",
+            "multifamily",
+            "parking",
+            "pedestrian",
+            "shade",
+            "sidewalk",
+            "sustainability",
+            "transportation",
+            "tree",
+            "trees",
+            "walkability",
+            "walkable"
           ]
         }
       ],
