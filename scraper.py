@@ -1134,40 +1134,60 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
 
 
 # ── Output: Mailchimp digest ──────────────────────────────────────────────────
+def _kw_pills(keywords: list[str], max: int = 6) -> str:
+    """Render keyword list as inline colored pills for email."""
+    pills = ""
+    for kw in keywords[:max]:
+        pills += (
+            f'<span style="display:inline-block;background:#E9D73F;color:#040404;'
+            f'font-size:10px;font-weight:bold;padding:1px 6px;border-radius:3px;'
+            f'margin:0 2px 2px 0;font-family:Arial,sans-serif;">{kw}</span>'
+        )
+    return pills
+
 def write_digest(meetings: list[Meeting]) -> None:
     today_str = date.today().strftime("%B %-d, %Y")
     rows = ""
     for m in meetings:
         bc = SOURCE_COLORS.get(m.source_label, "#555")
+
         if m.relevant_items:
-            body_content = "<br>".join(
-                f"&bull;&nbsp;{it.title[:180]}" for it in m.relevant_items[:8]
-            )
+            item_rows = ""
+            for it in m.relevant_items[:10]:
+                pills = _kw_pills(it.matched_keywords)
+                item_rows += (
+                    f'<div style="margin-bottom:5px;font-size:12px;color:#333;'
+                    f'font-family:Arial,sans-serif;">'
+                    f'&bull;&nbsp;{it.title[:180]}'
+                    f'{("<br>" + pills) if pills else ""}'
+                    f'</div>'
+                )
+            body_content = item_rows
         elif m.notes:
-            body_content = f'<em style="color:#888;">{m.notes}</em>'
+            body_content = f'<em style="font-size:12px;color:#888;font-family:Arial,sans-serif;">{m.notes}</em>'
         else:
-            body_content = '<em style="color:#aaa;">Agenda not yet posted.</em>'
+            body_content = '<em style="font-size:12px;color:#aaa;font-family:Arial,sans-serif;">Agenda not yet posted — check source link.</em>'
 
         vline = ""
         if m.virtual_url:
             vline = (
-                f'<br><span style="color:#0072bc;font-size:11px;">'
-                f'Virtual: <a href="{m.virtual_url}" style="color:#0072bc;">'
-                f'{m.virtual_url[:65]}</a></span>'
+                f'<div style="font-size:11px;color:#0072bc;margin-top:3px;font-family:Arial,sans-serif;">'
+                f'Virtual: <a href="{m.virtual_url}" style="color:#0072bc;">{m.virtual_url[:65]}</a></div>'
             )
 
         rows += f"""<tr>
 <td style="padding:14px 20px;border-bottom:1px solid #eee;vertical-align:top;font-family:Arial,sans-serif;">
   <div style="margin-bottom:5px;">
-    <span style="background:{bc};color:#fff;font-size:10px;padding:2px 7px;border-radius:3px;font-weight:bold;">{m.source_label}</span>&nbsp;
-    <strong style="font-size:14px;">{m.body}</strong>
+    <span style="background:{bc};color:#fff;font-size:10px;padding:2px 7px;border-radius:3px;font-weight:bold;font-family:Arial,sans-serif;">{m.source_label}</span>&nbsp;
+    <strong style="font-size:14px;font-family:Arial,sans-serif;">{m.body}</strong>
   </div>
-  <div style="font-size:12px;color:#666;margin-bottom:5px;">
-    {m.display_date} &nbsp;|&nbsp; {m.time} &nbsp;|&nbsp; {m.location}{vline}
+  <div style="font-size:12px;color:#666;margin-bottom:6px;font-family:Arial,sans-serif;">
+    {m.display_date} &nbsp;|&nbsp; {m.time} &nbsp;|&nbsp; {m.location}
   </div>
-  <div style="font-size:12px;color:#333;line-height:1.8;">{body_content}</div>
-  <div style="margin-top:6px;">
-    <a href="{m.agenda_url}" style="font-size:12px;color:#b04a1e;font-weight:bold;text-decoration:none;">View agenda &rarr;</a>
+  {vline}
+  <div style="margin-top:6px;">{body_content}</div>
+  <div style="margin-top:8px;">
+    <a href="{m.agenda_url}" style="font-size:12px;color:#040404;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif;">View agenda &rarr;</a>
   </div>
 </td></tr>"""
 
@@ -1175,27 +1195,30 @@ def write_digest(meetings: list[Meeting]) -> None:
         rows = '<tr><td style="padding:20px;color:#888;font-family:Arial,sans-serif;font-style:italic;">No relevant meetings found this week.</td></tr>'
 
     digest = f"""<!-- UPP MEETING DIGEST — paste into Mailchimp HTML content block
-     Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')} | {len(meetings)} meetings -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;margin:0 auto;">
-<tr><td style="background:#b04a1e;padding:18px 20px;">
-  <h2 style="color:#fff;font-size:18px;margin:0 0 4px;font-family:Arial,sans-serif;">Phoenix-Area Policy Meetings</h2>
-  <p style="color:#f5d0c0;font-size:12px;margin:0;font-family:Arial,sans-serif;">
+     Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')} | {len(meetings)} meetings
+     MAILCHIMP: paste this entire block into an HTML content block in your campaign. -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;margin:0 auto;font-family:Arial,sans-serif;">
+<tr><td style="background:#040404;padding:18px 20px;">
+  <h2 style="color:#E9D73F;font-size:20px;margin:0 0 4px;font-family:Arial,sans-serif;font-weight:bold;">Phoenix-Area Policy Meetings</h2>
+  <p style="color:#cccccc;font-size:12px;margin:0;font-family:Arial,sans-serif;">
     Housing &middot; Zoning &middot; Transit &middot; Vision Zero &middot; Trees &amp; Heat &middot; Building Code &nbsp;|&nbsp; Week of {today_str}
   </p>
 </td></tr>
-<tr><td style="padding:8px 20px;background:#fdf6f3;">
+<tr><td style="padding:8px 20px;background:#f5f5f0;border-bottom:1px solid #ddd;">
   <p style="font-size:12px;color:#777;margin:0;font-family:Arial,sans-serif;">
     {len(meetings)} meetings tracked &nbsp;&middot;&nbsp;
-    <a href="https://urbanphoenixproject.github.io/meetings" style="color:#b04a1e;font-weight:bold;">View full tracker &rarr;</a>
+    <a href="https://upp-vuaa.github.io/meetings" style="color:#040404;font-weight:bold;">View full tracker &rarr;</a>
   </p>
 </td></tr>
 <tr><td>
   <table width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
 </td></tr>
-<tr><td style="padding:12px 20px;background:#f5f4f0;text-align:center;font-size:11px;color:#999;font-family:Arial,sans-serif;">
-  Published by <a href="https://urbanphoenixproject.org" style="color:#b04a1e;">Urban Phoenix Project</a> &amp;
-  <a href="https://valleyurban.org" style="color:#b04a1e;">Valley Urban Action Alliance</a>.
-  Verify all meeting details with the hosting agency.
+<tr><td style="padding:14px 20px;background:#040404;text-align:center;font-size:11px;color:#999;font-family:Arial,sans-serif;">
+  Published by
+  <a href="https://urbanphoenixproject.org" style="color:#E9D73F;">Urban Phoenix Project</a> &amp;
+  <a href="https://valleyurban.org" style="color:#E9D73F;">Valley Urban Action Alliance</a>.<br>
+  Always verify meeting details with the hosting agency.<br><br>
+  *|UNSUB|*
 </td></tr>
 </table><!-- end UPP Meeting Digest -->"""
 
