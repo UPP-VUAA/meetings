@@ -1,0 +1,38 @@
+name: Weekly Meeting Tracker
+
+on:
+  schedule:
+    - cron: "0 14 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run meeting scraper
+        run: python scraper.py
+
+      - name: Commit and push updated docs
+        run: |
+          git config user.name  "UPP Meeting Bot"
+          git config user.email "bot@urbanphoenixproject.org"
+          git add docs/
+          git diff --cached --quiet || git commit -m "chore: weekly meeting update $(date '+%Y-%m-%d')"
+          git push
