@@ -302,16 +302,25 @@ ATTACHMENT_PAGE_SIGNALS = re.compile(
     re.IGNORECASE,
 )
 
+def is_garbled(line: str) -> bool:
+    """Detect OCR-garbled lines with excessive repeated characters."""
+    if len(line) < 15:
+        return False
+    # Count chars that appear 3+ times consecutively
+    garbled = len(re.findall(r"(.)\1{2,}", line))
+    return garbled > 2
+
 def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
     """
-    Scan a PDF for agenda items using two strategies:
-    1. Extract numbered agenda items from the table of contents
-    2. Keyword-match lines in the agenda section
+    Scan a PDF for relevant agenda items.
 
-    Scanning stops when attachment/report content is detected or max_pages
-    is reached. max_pages defaults to 20, which covers even large City Council
-    formal agendas (their index typically runs ~12 pages).
-    OCR-garbled lines (repeated characters from scanned attachments) are skipped.
+    Phase 1: Scan the agenda index (up to max_pages, stopping at first
+    attachment/report page) to extract TOC items and keyword lines.
+
+    Phase 2: For large packet PDFs, scan the item report pages (after
+    the index) for additional keyword context — but only clean lines,
+    skipping garbled OCR text. This surfaces keywords from attachment
+    summaries (e.g. pedestrian, mobility, shade in a district plan).
     """
     if not PDF_SUPPORT or not url or not url.lower().endswith(".pdf"):
         return []
@@ -323,16 +332,17 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
         with pdfplumber.open(io.BytesIO(r.content)) as pdf:
             items, seen = [], set()
             agenda_text = ""
+            attachment_start = None
 
             for i, page in enumerate(pdf.pages[:max_pages]):
                 page_text = page.extract_text() or ""
 
                 # Stop when this page IS an attachment/report page (check first line only)
-                # Wait until page 5 minimum so we don't stop on cover/TOC pages
                 if i >= 4:
                     first_line = page_text.strip().split("\n")[0].strip() if page_text.strip() else ""
                     if ATTACHMENT_PAGE_SIGNALS.match(first_line):
-                        log.info(f"    PDF scan: stopped at page {i+1} (attachment page: {first_line[:50]})")
+                        attachment_start = i
+                        log.info(f"    PDF scan: agenda index ends at page {i+1}")
                         break
 
                 agenda_text += page_text + "\n"
@@ -420,7 +430,35 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
                     seen.add(key)
                     items.append(AgendaItem(title=line[:220], matched_keywords=kws))
 
-            return items[:30]
+            # ── Phase 2: enrich TOC items with keywords from their attachments ─
+            # For large packet PDFs, scan the attachment/report pages and collect
+            # all keywords found. Then append those keywords to the TOC agenda item
+            # they belong to — so Item 3 shows all keywords from its attachment
+            # right next to its title, rather than as separate bullet points.
+            if attachment_start is not None and len(pdf.pages) > 20 and items:
+                scan_end = min(attachment_start + 100, len(pdf.pages))
+                attachment_kws: set[str] = set()
+                for page in pdf.pages[attachment_start:scan_end]:
+                    page_text = page.extract_text() or ""
+                    for line in page_text.split("\n"):
+                        line = line.strip()
+                        if len(line) < 20 or is_garbled(line):
+                            continue
+                        if re.search(r"Credit:|Unsplash|https?://|^\d+$", line, re.IGNORECASE):
+                            continue
+                        for kw in keywords_in(line):
+                            attachment_kws.add(kw)
+
+                # Add attachment keywords to the last TOC item before the attachment
+                # (that item owns the attachment)
+                if attachment_kws:
+                    last_item = items[-1]
+                    existing = set(last_item.matched_keywords)
+                    extra = sorted(attachment_kws - existing)
+                    last_item.matched_keywords = last_item.matched_keywords + extra
+                    log.info(f"    Attachment keywords added to '{last_item.title[:50]}': {extra}")
+
+            return items[:35]
     except Exception as e:
         log.warning(f"  PDF scan failed ({e})")
         return []
