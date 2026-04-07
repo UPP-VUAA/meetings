@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T03:06:26.128349",
+  "generated": "2026-04-07T03:36:24.060654",
   "window_days": 28,
   "count": 16,
   "meetings": [
@@ -13,57 +13,15 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "48-hour period. Due to the added demands of facilitating the virtual environment for the",
-          "matched_keywords": [
-            "environment"
-          ]
-        },
-        {
-          "title": "Rezoning and text amendment staff reports, addendums, and staff memos are available",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
-          "title": "zoning/pzservices/pzstaff-reports.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "PUD rezoning staff reports, narratives, addendums, and staff memos are available here:",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
-          "title": "https://www.phoenix.gov/pdd/planning-zoning/pzservices/pud-cases.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Proposal: Minor General Plan Amendment to accommodate",
+          "title": "Item 2: Application GPA-EST-1-25-7 \u2014 Minor General Plan Amendment to accommodate industrial development",
           "matched_keywords": [
             "general plan"
           ]
         },
         {
-          "title": "Applicant: John Buckel, MP Environmental Services, Inc.",
-          "matched_keywords": [
-            "environmental"
-          ]
-        },
-        {
-          "title": "Proposal: Historic Preservation Zoning Overlay for E.H. Coe",
+          "title": "Item 4: Application Z-2-26-6 \u2014 Historic Preservation Zoning Overlay for E.H. Coe House",
           "matched_keywords": [
             "zoning"
-          ]
-        },
-        {
-          "title": "If appealed, the City Council public hearing will be held on May 6, 2026 at 2:30 p.m. If",
-          "matched_keywords": [
-            "public hearing"
           ]
         }
       ],
@@ -79,34 +37,15 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "A. Presentation and discussion regarding updates on the General Plan Next",
+          "title": "Item A: Presentation and discussion regarding updates on the General Plan Next",
           "matched_keywords": [
             "general plan"
           ]
         },
         {
-          "title": "(Rio Salado District) Policy Plan and initiation of a new General Plan",
+          "title": "Item B: Presentation, discussion, and possible initiation of a General Plan",
           "matched_keywords": [
             "general plan"
-          ]
-        },
-        {
-          "title": "B. Presentation, discussion, and possible initiation of a General Plan",
-          "matched_keywords": [
-            "general plan"
-          ]
-        },
-        {
-          "title": "Amendment of the General Plan Land Use Map to be in alignment with the",
-          "matched_keywords": [
-            "general plan",
-            "land use"
-          ]
-        },
-        {
-          "title": "VI. TIME ALLOCATION FOR PUBLIC HEARING ITEMS ON THE EVENING",
-          "matched_keywords": [
-            "public hearing"
           ]
         }
       ],
@@ -230,7 +169,15 @@
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260408002.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [],
+      "relevant_items": [
+        {
+          "title": "Item 3: Downtown Phoenix Entertainment District",
+          "matched_keywords": [
+            "downtown",
+            "entertainment district"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
