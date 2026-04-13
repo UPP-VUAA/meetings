@@ -1,50 +1,260 @@
 {
-  "generated": "2026-04-10T16:37:59.615325",
+  "generated": "2026-04-13T00:24:26.154550",
   "window_days": 28,
-  "count": 16,
+  "count": 25,
   "meetings": [
     {
-      "body": "Board of Supervisors - Planning and Zoning Agenda Items",
-      "date": "2026-04-08",
-      "time": "9:00 AM",
-      "location": "301 W. Jefferson St., Phoenix AZ 85003",
-      "virtual_url": "https://www.maricopa.gov/324",
-      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_04082026-3706?html=true",
-      "source_label": "Maricopa County",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "City Council Formal Meeting",
-      "date": "2026-04-08",
-      "time": "2:30 PM",
-      "location": "phoenix.gov",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/other-public-meetings/notices.html",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Economic Development and the Arts Subcommittee",
-      "date": "2026-04-08",
+      "body": "Site Plan Review Team: 5741 West Watkins Street",
+      "date": "2026-04-10",
       "time": "10:00 AM",
-      "location": "City Council Chambers",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/other-public-meetings/notices.html",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260410001.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [],
       "notes": ""
     },
     {
-      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
-      "date": "2026-04-09",
-      "time": "9:00 AM",
-      "location": "301 W. Jefferson St., Phoenix AZ 85003",
-      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
-      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_04092026-3711?html=true",
-      "source_label": "Maricopa County",
-      "relevant_items": [],
+      "body": "Virtual/in-person Community Budget Hearing",
+      "date": "2026-04-11",
+      "time": "10:30 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260411001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "general public, that a virtual/in-person budget hearing related to the City\u2019s budget",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "SUBCOMMITTEES may be present at the virtual/in-person budget hearing listed below.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "the virtual/in-person budget hearing.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "2026-27 City of Phoenix Budget Hearings",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "budget hearing, requests may be made by calling 602-256-4126 (Voice), Dial 711 for",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "AZ Relay, or by emailing ada@phoenix.gov at least five business days in advance of",
+          "matched_keywords": [
+            "ada"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Community Budget Hearings",
+      "date": "2026-04-13",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260413001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "SUBCOMMITTEES may be present at any of the budget hearings listed below.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "the budget hearings.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "OPTIONS TO ACCESS THE VIRTUAL PORTION OF THE BUDGET HEARING",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "To REGISTER TO SPEAK, you must visit the Budget Hearings page at 2026-27 City of Phoenix",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "2026-27 City of Phoenix Budget Hearings",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "emailing ada@phoenix.gov at least five business days in advance of the budget hearing. We will",
+          "matched_keywords": [
+            "ada",
+            "budget"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Laveen Village Planning Committee",
+      "date": "2026-04-13",
+      "time": "6:30 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260413006.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "request to rezone 3.61 acres located at the southeast corner of 59th Avenue and",
+          "matched_keywords": [
+            "rezone"
+          ]
+        },
+        {
+          "title": "request to rezone 4.35 acres located at the southwest corner of 55th Avenue",
+          "matched_keywords": [
+            "rezone"
+          ]
+        },
+        {
+          "title": "zoning/villages/laveen.html.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Rio Vista Village Planning Committee",
+      "date": "2026-04-14",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260414005.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "request rezone 22.48 acres located approximately 1,300 feet south of the",
+          "matched_keywords": [
+            "rezone"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "South Mountain Village Planning Committee",
+      "date": "2026-04-14",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260414004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "request to rezone 5.79 acres located at the northeast corner of 16th Street and",
+          "matched_keywords": [
+            "rezone"
+          ]
+        },
+        {
+          "title": "RSIOD (Neighborhood Retail, Height Waiver, Density Waiver, Rio Salado Interim",
+          "matched_keywords": [
+            "density"
+          ]
+        },
+        {
+          "title": "Transit Oriented Development (TOD) Implementation Project progress and",
+          "matched_keywords": [
+            "transit",
+            "tod"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Community Budget Hearings",
+      "date": "2026-04-15",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260415002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "SUBCOMMITTEES may be present at any of the budget hearings listed below.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "the budget hearings.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "OPTIONS TO ACCESS THE VIRTUAL PORTION OF THE BUDGET HEARING",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "To REGISTER TO SPEAK, you must visit the Budget Hearings page at 2026-27 City of Phoenix",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "2026-27 City of Phoenix Budget Hearings",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "emailing ada@phoenix.gov at least five business days in advance of the budget hearing. We will",
+          "matched_keywords": [
+            "ada",
+            "budget"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
@@ -145,6 +355,42 @@
       "notes": ""
     },
     {
+      "body": "Vision Zero Community Advisory Committee",
+      "date": "2026-04-15",
+      "time": "5:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260415005.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 3: Ratification of Actions taken at February 11, 2026, Vision Zero Community Chair Kundur",
+          "matched_keywords": [
+            "vision zero"
+          ]
+        },
+        {
+          "title": "Item 8: GO Bond Vision Zero Implementation Status Update Reed Henry",
+          "matched_keywords": [
+            "vision zero"
+          ]
+        },
+        {
+          "title": "COMMUNTIY ADVISIORY COMMITTEE, and to the general public, that the VISION ZERO COMMUNITY",
+          "matched_keywords": [
+            "vision zero"
+          ]
+        },
+        {
+          "title": "Management Assistant II, Street Transportation Department at 602-534-3739 or TTY: 7-1-1.",
+          "matched_keywords": [
+            "transportation"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "Board of Adjustment Meeting - BOS Auditorium & GoTo Webinar",
       "date": "2026-04-16",
       "time": "9:00 AM",
@@ -165,6 +411,212 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-04-16-Agenda.pdf"
+    },
+    {
+      "body": "Virtual/in-person Community Budget Hearing",
+      "date": "2026-04-16",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260416002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "general public, that a virtual/in-person budget hearing related to the City\u2019s budget",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "SUBCOMMITTEES may be present at the virtual/in-person budget hearing listed below.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "the virtual/in-person budget hearing.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "2026-27 City of Phoenix Budget Hearings",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "budget hearing, requests may be made by calling 602-256-4126 (Voice), Dial 711 for",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "AZ Relay, or by emailing ada@phoenix.gov at least five business days in advance of",
+          "matched_keywords": [
+            "ada"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Zoning Adjustment Hearing - Revised",
+      "date": "2026-04-16",
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260416003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 1: Application ZA-497-25-3 \u2014 1) Use permit to allow an over height (23 feet) detached accessory dwelling unit",
+          "matched_keywords": [
+            "accessory dwelling"
+          ]
+        },
+        {
+          "title": "Item 2: Application ZA-13-26-6 \u2014 Variance to allow the required parking within the required front yard setback (s",
+          "matched_keywords": [
+            "variance",
+            "parking"
+          ]
+        },
+        {
+          "title": "Item 3: Application ZA-103-26-6 \u2014 Variance to reduce the front yard setback (north) to 5 feet. Minimum 20 feet req",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 5: Application ZA-179-26-6 \u2014 Variance to reduce the front yard setback (west) to 8 feet. Minimum 20 feet requ",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 10: Application ZA-177-26-6 \u2014 Time extension for ZA-134-24-6, variance to allow maneuvering to occur in the pu",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-10",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "accessory dwelling unit located in the rear yard setback",
+          "matched_keywords": [
+            "accessory dwelling"
+          ]
+        },
+        {
+          "title": "accessory dwelling unit located in the side yard setback",
+          "matched_keywords": [
+            "accessory dwelling"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-6",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "front yard setback (south). Required parking not permitted",
+          "matched_keywords": [
+            "parking"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-3 SAUMSO",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: A-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-2 H-R TOD-1",
+          "matched_keywords": [
+            "zoning",
+            "tod"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-2 DRSP",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R-3",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: A-2",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "3) Variance to allow a medical marijuana cultivation facility",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "4) Variance to allow a medical marijuana infusion facility",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Development Advisory Board",
+      "date": "2026-04-21",
+      "time": "3:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260421001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "and Access to Training Environment Department",
+          "matched_keywords": [
+            "environment"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Active Transportation Committee",
@@ -200,6 +652,24 @@
       "notes": "Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-04-22-Agenda.pdf"
     },
     {
+      "body": "Phoenix Mayor's Commission On Disability Issues (MCDI) Digital Environment and Pjysical Infrastructure Subcommittee",
+      "date": "2026-04-22",
+      "time": "4:15 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260422003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Digital Environment and Physical Infrastructure Subcommittee \u2013 Nicole",
+          "matched_keywords": [
+            "environment"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "MEETING OF THE FLOOD CONTROL ADVISORY BOARD\r\nAPRIL 23, 2026",
       "date": "2026-04-23",
       "time": "9:00 AM",
@@ -208,6 +678,151 @@
       "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_04232026-3717?html=true",
       "source_label": "Maricopa County",
       "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Zoning Adjustment Hearing",
+      "date": "2026-04-23",
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260423001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 1: Application ZA-989-25-2 \u2014 1) Variance to reduce the building setback (east) adjacent to R-3 zoning to 45 f",
+          "matched_keywords": [
+            "variance",
+            "zoning"
+          ]
+        },
+        {
+          "title": "Item 4: Application ZA-189-26-6 \u2014 Variance to reduce street side setback from 10 feet to 0 feet. Minimum of 10 fee",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 5: Application ZA-204-26-1 \u2014 Variance to allow an over height wall (6 feet) in the required front yard setbac",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 9: Application ZA-79-26-6 \u2014 1) Variance to allow a minimum lot area of 8,785 square feet for resulting parce",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 12: Application ZA-202-26-6 \u2014 Variance to reduce the front yard setback (south) to 10ft. Minimum 25 feet requi",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 13: Application ZA-210-26-8 \u2014 Variance to allow an over height wall (8 feet) within the required street front ",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-2 NBCC",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "adjacent to R-3 zoning to 45 feet. Minimum 150 feet",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to reduce the landscape setback (east)",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "3) Variance to reduce the landscape setback (north)",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Existing Zoning: S-2",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-6",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: A-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R-O",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-10",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to allow a minimum lot depth of 87 feet for",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Existing Zoning: RE-24",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: PUD",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-1 HGT/WVR, C-2, C-2 HGT/WVR, R-3",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "zoning.adjustment@phoenix.gov. To request a reasonable accommodation, please",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
