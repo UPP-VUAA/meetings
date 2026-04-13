@@ -45,7 +45,7 @@ log = logging.getLogger("upp-tracker")
 
 # ── Config ────────────────────────────────────────────────────────────────────
 LOOK_AHEAD_DAYS = 28
-LOOK_BACK_DAYS  = 3
+LOOK_BACK_DAYS  = 0
 OUTPUT_DIR      = Path("docs")
 REQUEST_TIMEOUT = 25
 USER_AGENT = (
