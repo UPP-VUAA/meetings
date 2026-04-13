@@ -1,67 +1,8 @@
 {
-  "generated": "2026-04-13T00:24:26.154550",
+  "generated": "2026-04-13T00:29:34.815113",
   "window_days": 28,
-  "count": 25,
+  "count": 23,
   "meetings": [
-    {
-      "body": "Site Plan Review Team: 5741 West Watkins Street",
-      "date": "2026-04-10",
-      "time": "10:00 AM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260410001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Virtual/in-person Community Budget Hearing",
-      "date": "2026-04-11",
-      "time": "10:30 AM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260411001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "general public, that a virtual/in-person budget hearing related to the City\u2019s budget",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "SUBCOMMITTEES may be present at the virtual/in-person budget hearing listed below.",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "the virtual/in-person budget hearing.",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "2026-27 City of Phoenix Budget Hearings",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "budget hearing, requests may be made by calling 602-256-4126 (Voice), Dial 711 for",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "AZ Relay, or by emailing ada@phoenix.gov at least five business days in advance of",
-          "matched_keywords": [
-            "ada"
-          ]
-        }
-      ],
-      "notes": ""
-    },
     {
       "body": "Community Budget Hearings",
       "date": "2026-04-13",
