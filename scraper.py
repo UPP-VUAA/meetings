@@ -115,6 +115,18 @@ PHOENIX_BOARDS_KEYWORDS = [
     "Mayor's Commission on Disability",
     "Planning Commission",
     "Zoning",
+    "Transportation",
+    "Housing",
+    "Budget Hearing",
+    "Budget",
+    "Walkability",
+    "Bicycle",
+    "Pedestrian",
+    "Heat",
+    "Tree",
+    "Sustainability",
+    "Surface Transportation",
+    "Transit",
 ]
 
 # MAG committee pages (calendar is JS-gated; individual pages sometimes load)
@@ -641,28 +653,38 @@ def scrape_phoenix_boards() -> list[Meeting]:
     log.info("Scraping City of Phoenix — Boards & Commissions (JSON API)…")
     meetings = []
 
-    r = get(
-        PHOENIX_NOTICES_API,
-        params={
-            "offset": "0",
-            "limit": "200",
-            "orderby": "@jcr:content/metadata/meetingTime",
-            "sortorder": "asc",
-        },
-        headers={"Accept": "application/json"},
-    )
-    if not r:
-        log.warning("  Phoenix notices JSON API unavailable")
-        return meetings
+    # API is hard-capped at 10 results per page — must paginate in steps of 10
+    all_results = []
+    offset = 0
+    total = 9999  # will be updated on first response
+    while offset < total:
+        r = get(
+            PHOENIX_NOTICES_API,
+            params={
+                "offset": str(offset),
+                "limit": "10",
+                "orderby": "@jcr:content/metadata/meetingTime",
+                "sortorder": "asc",
+            },
+            headers={"Accept": "application/json"},
+        )
+        if not r:
+            log.warning("  Phoenix notices JSON API unavailable")
+            break
+        try:
+            data = r.json()
+        except Exception:
+            log.warning("  Could not parse Phoenix notices JSON")
+            break
+        page_results = data.get("results", [])
+        if not page_results:
+            break
+        all_results.extend(page_results)
+        total = int(data.get("resultTotal", 0) or 0)
+        offset += 10
 
-    try:
-        data = r.json()
-    except Exception:
-        log.warning("  Could not parse Phoenix notices JSON")
-        return meetings
-
-    results = data.get("results", [])
-    log.info(f"  Phoenix notices API returned {len(results)} items")
+    results = all_results
+    log.info(f"  Phoenix notices API returned {len(results)} of {total} total items")
 
     for item in results:
         title = item.get("title", "").strip()
