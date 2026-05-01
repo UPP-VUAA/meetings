@@ -291,8 +291,11 @@ def extract_virtual_url(text: str) -> str:
 # Pattern matching numbered agenda items like "3 Downtown Phoenix Entertainment District Page 15"
 # Format A (subcommittee TOC):  "3 Downtown Phoenix Entertainment District Page 15"
 # Format B (briefing letters):   "A. Presentation and discussion regarding..."
+# Format C (VPC/boards):         "3. INFORMATION ONLY: Presentation and discussion..."
 AGENDA_ITEM_RE = re.compile(
-    r"^\s*(?:(\d{1,2})\.?|([A-F])\.)\s+([A-Z#][^\n]{10,150}?)(?:\s+Page\s+\d+)?\s*$",
+    r"^\s*(?:(\d{1,2})\.?|([A-F])\.)\s+"        # item number or letter
+    r"(?:INFORMATION ONLY:\s*|ACTION ITEM:\s*|DISCUSSION:\s*)?"  # optional prefix
+    r"([A-Z#][^\n]{10,200}?)(?:\s+Page\s+\d+)?\s*$",
     re.MULTILINE,
 )
 
@@ -359,6 +362,43 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
 
                 agenda_text += page_text + "\n"
 
+            # ── Pre-process: join wrapped continuation lines under numbered items ──
+            # Village Planning Committee and other single-page agendas wrap long
+            # item text across multiple lines. Join them so each item is one line.
+            joined_lines = []
+            current_num = None
+            current_parts = []
+            for raw in agenda_text.split("\n"):
+                raw = raw.strip()
+                if not raw:
+                    if current_parts:
+                        joined_lines.append(" ".join(current_parts))
+                        current_parts = []
+                        current_num = None
+                    continue
+                num_match = re.match(r"^(\d{1,2})[.\)]\s+(.+)", raw)
+                is_url = bool(re.search(r"https?://|/[a-z-]+/[a-z-]+", raw))
+                is_bullet = bool(re.match(r"^[•\-]", raw))
+                if num_match and not is_url:
+                    if current_parts:
+                        joined_lines.append(" ".join(current_parts))
+                    current_num = num_match.group(1)
+                    current_parts = [raw]
+                elif current_num and not is_url and not is_bullet and not re.match(
+                    r"^(\d{1,2}[.\)]|[A-F]\.\s|Presentation by \w+ \w+|Not for|For further|To request)",
+                    raw, re.IGNORECASE
+                ):
+                    current_parts.append(raw)
+                else:
+                    if current_parts:
+                        joined_lines.append(" ".join(current_parts))
+                        current_parts = []
+                        current_num = None
+                    joined_lines.append(raw)
+            if current_parts:
+                joined_lines.append(" ".join(current_parts))
+            agenda_text = "\n".join(joined_lines)
+
             # Strategy 1a: Planning Commission case blocks
             # Format: '4. Application #: Z-2-26-6 ... Proposal: Historic Preservation...'
             for m in PC_CASE_RE.finditer(agenda_text):
@@ -411,29 +451,35 @@ def scan_pdf(url: str, max_pages: int = 20) -> list[AgendaItem]:
                 # Skip attachment filenames
                 if re.match(r"Attachment [A-Z]\s*[-—]", line):
                     continue
-                # Skip URL fragments and file paths
-                if re.search(r"https?://|www\.|/pdd/|pzstaff-reports|pud-cases", line):
+                # Skip ANY line containing a URL, URL fragment, or file path
+                if re.search(r"https?://|www\.|/pdd/|/planning-zoning/|/zoning/|pzstaff|pud-cases|\.html", line):
                     continue
-                # Skip continuation lines and already-captured PC case fields
+                # Skip 'Staff Reports for...' boilerplate
+                if re.match(r"^•?\s*Staff Reports? for", line, re.IGNORECASE):
+                    continue
+                # Skip continuation lines and PC case fields
                 if re.match(r"^(Proposal:|Applicant:|From:|To:|Owner:|Representative:|Acreage:|\()", line):
                     continue
-                # Skip lines that start mid-sentence (Amendment of, Initiation of, etc.)
+                # Skip mid-sentence continuations
                 if re.match(r"^(Amendment|Initiation|Continuation|Rescinding|Adoption|Implementation)\s+of\b", line):
                     continue
-                # Skip boilerplate lines (ARS references, contact info, instructions)
+                # Skip 'Presentation by [Name] with [Dept]' attribution lines
+                if re.match(r"^Presentation by \w+ \w+ with", line):
+                    continue
+                # Skip boilerplate
                 if re.search(
                     r"A\.R\.S\.|please\s+visit|please\s+log|48-hour|please\s+contact"
                     r"|staff\s+reports?\s+are|staff\s+memos|addendums?\s+and"
                     r"|applicant:|owner:|representative:|acreage:|from:|to:|location:"
                     r"|if\s+appealed|ordinance\s+adoption\s+will\s+be"
                     r"|pursuant\s+to|notice\s+is\s+hereby"
-                    r"|roman numeral|^(I|II|III|IV|V|VI|VII|VIII|IX|X)\.",
+                    r"|not for committee|for further information|to request a reasonable"
+                    r"|presentation by\s+\w+\s+\w+\s+with",
                     line, re.IGNORECASE
                 ):
                     continue
-                # Skip lines that are clearly not agenda items (too short after stripping)
-                norm = re.sub(r"^\d{1,2}\.?\s+", "", line)        # strip "3. " or "3 "
-                norm = re.sub(r"^[A-F]\.\s+", "", norm)             # strip "A. "
+                norm = re.sub(r"^\d{1,2}\.?\s+", "", line)
+                norm = re.sub(r"^[A-F]\.\s+", "", norm)
                 norm = re.sub(r"\s+Page\s+\d+\s*$", "", norm).strip()
                 if len(norm) < 15:
                     continue
@@ -1008,7 +1054,11 @@ def write_html_page(meetings: list[Meeting]) -> None:
     confirmed    = [m for m in meetings if not m.is_placeholder]
     placeholders = [m for m in meetings if m.is_placeholder]
 
-    by_week: dict[str, list[Meeting]] = {}
+    # Always anchor to current week so "Week of" reflects today
+    today_date = date.today()
+    current_monday = (today_date - timedelta(days=today_date.weekday())).isoformat()
+
+    by_week: dict[str, list[Meeting]] = {current_monday: []}
     for m in confirmed:
         monday = m.date_obj - timedelta(days=m.date_obj.weekday())
         by_week.setdefault(monday.isoformat(), []).append(m)
