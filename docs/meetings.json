@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-01T16:22:53.272262",
+  "generated": "2026-05-01T17:00:00.407524",
   "window_days": 28,
-  "count": 26,
+  "count": 27,
   "meetings": [
     {
       "body": "The Moreland II Housing Corporation Special Board of Directors Meeting",
@@ -43,7 +43,7 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 2: Adoption of Fiscal Agent Agreement Board",
+          "title": "Item 2: Adoption of Fiscal Agent Agreement Board For Information, Discussion, and Action",
           "matched_keywords": [
             "fiscal"
           ]
@@ -88,44 +88,7 @@
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260504004.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "\u2022 Staff Reports for conventional rezoning cases:",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
-          "title": "Presentation by Sarah Brown with the Public Transit Department.",
-          "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "a request to rezone 15.16 acres located at the southeast corner of Interstate 17",
-          "matched_keywords": [
-            "rezone"
-          ]
-        },
-        {
-          "title": "request to rezone 2.58 acres located approximately 200 feet north of the",
-          "matched_keywords": [
-            "rezone"
-          ]
-        },
-        {
-          "title": "request to rezone 15.98 acres located approximately 430 feet south of the",
-          "matched_keywords": [
-            "rezone"
-          ]
-        },
-        {
-          "title": "Estate District), 14.26 acres of County RU-43 (Pending S-1) (Rural Zoning",
-          "matched_keywords": [
-            "zoning"
-          ]
-        }
-      ],
+      "relevant_items": [],
       "notes": ""
     },
     {
@@ -149,12 +112,6 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "\u2022 Staff Reports for conventional rezoning cases:",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
           "title": "zoning/villages/paradise-valley.",
           "matched_keywords": [
             "zoning"
@@ -172,12 +129,6 @@
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505004.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
-        {
-          "title": "\u2022 Staff Reports for conventional rezoning cases:",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
         {
           "title": "zoning/villages/camelback-east.",
           "matched_keywords": [
@@ -321,40 +272,11 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 3: INFORMATION ONLY: Presentation and discussion regarding planned transit",
+          "title": "Item 3: Presentation and discussion regarding planned transit investments as part of the Transportation 2050 (T2050) plan and an update on transit expansion in the Desert View Village.",
           "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "\u2022 Staff Reports for conventional rezoning cases:",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
-          "title": "investments as part of the Transportation 2050 (T2050) plan and an update on",
-          "matched_keywords": [
+            "transit",
             "transportation",
             "t2050"
-          ]
-        },
-        {
-          "title": "transit expansion in the Desert View Village.",
-          "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "Presentation by Skitch Kitchen with the Public Transit Department.",
-          "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "zoning/villages/desert-view.html.",
-          "matched_keywords": [
-            "zoning"
           ]
         }
       ],
@@ -523,20 +445,18 @@
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507007.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 2: Application GPA-EST-1-25-7 \u2014 Minor General Plan Amendment to accommodate industrial development",
-          "matched_keywords": [
-            "general plan"
-          ]
-        },
-        {
-          "title": "Item 5: Application Z-183-25-8 \u2014 Commercial and multifamily residential",
-          "matched_keywords": [
-            "multifamily"
-          ]
-        }
-      ],
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Site Plan Review Team: 3327 West Harris Street",
+      "date": "2026-05-07",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507008.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
       "notes": ""
     },
     {
@@ -549,118 +469,15 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 2: Application ZA-82-26-4 \u2014 1) Variance to allow an over height fence (7 feet) in the required front yard (s",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 3: Application ZA-192-26-4 \u2014 Use permit to utilize Single Family Infill (SFI) subdivision standards. Use perm",
-          "matched_keywords": [
-            "infill"
-          ]
-        },
-        {
-          "title": "Item 4: Application ZA-229-26-4 \u2014 1) Variance to increase the maximum building setback along 2nd Street (west) to ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 5: Application ZA-241-26-4 \u2014 Variance to reduce the required front yard setback (west) to 9 feet. Minimum 25 ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 6: Application ZA-103-14-8 \u2014 1) Variance to allow a medical marijuana cultivation facility within 5,280 feet ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
           "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
           "matched_keywords": [
             "zoning"
           ]
         },
         {
-          "title": "Existing Zoning: C-2",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: C-3 ACOD MH",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Variance to allow an over height fence (7 feet) in the",
+          "title": "2) Variance to allow an over height fence (7 feet) in the required front yard (north). Maximum 40 inches permitted.",
           "matched_keywords": [
             "variance"
-          ]
-        },
-        {
-          "title": "3) Variance to allow an over height fence (7 feet) in the",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R-3",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: 3008 North 3rd Street",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "building setback within 1,000 feet of a transit station",
-          "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "2) Variance to reduce the minimum building frontage",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "street within 2,000 feet of a transit station required.",
-          "matched_keywords": [
-            "transit"
-          ]
-        },
-        {
-          "title": "Existing Zoning: A-2 RSIOD",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "within 5,280 feet of the same type of use. Variance",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: PSC TOD-1",
-          "matched_keywords": [
-            "zoning",
-            "tod"
-          ]
-        },
-        {
-          "title": "Existing Zoning: RE-43",
-          "matched_keywords": [
-            "zoning"
           ]
         },
         {
@@ -704,157 +521,7 @@
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 2: Application ZA-237-26-1 \u2014 1) Variance to allow a tobacco-oriented retailer (Stash House) to be located wit",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 3: Application ZA-256-26-6 \u2014 1) Use permit to allow a detached accessory dwelling unit between the primary dw",
-          "matched_keywords": [
-            "accessory dwelling"
-          ]
-        },
-        {
-          "title": "Item 6: Application ZA-39-26-6 \u2014 Time extension for ZA-605-25, variance to reduce side yard (west) setback to 3 f",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 7: Application ZA-217-26-4 \u2014 1) Variance to increase the area of a wall sign for a total of 474 square feet. ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 8: Application ZA-231-26-6 \u2014 Variance to allow 15 items of information on a ground sign. Maximum 10 items all",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 9: Application ZA-238-26-6 \u2014 Variance to increase the height of a wall sign for non- residential activity in ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 10: Application ZA-101-26-5 \u2014 Variance to allow a minimum lot width of 55 feet. Minimum lot width of 60 feet r",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 12: Application ZA-252-26-6 \u2014 Variance to reduce the side yard setback (west) to 10 feet. Minimum 20 feet requ",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Item 14: Application ZA-160-26-1 \u2014 Variance to reduce the required side yard setback (south) for a detached accesso",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
           "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: C-2",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Variance to allow a tobacco-oriented retailer (Stash",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R1-14 ACSPD",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Variance to reduce the front yard setback (east) for a",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "detached accessory dwelling unit to 8 feet. Minimum 30",
-          "matched_keywords": [
-            "accessory dwelling"
-          ]
-        },
-        {
-          "title": "Existing Zoning: A-1",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "3) Time extension for ZA-295-18, variance to allow a",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "4) Time extension for ZA-295-18, variance to allow a",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R1-10 ACSPD",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: C-3 MH, A-1 MH",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Variance to break the silhouette of the building on",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R-5 CEPCSP",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R-3",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: PSC",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: RE-35 ACSPD",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: S-1",
           "matched_keywords": [
             "zoning"
           ]
@@ -943,12 +610,6 @@
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260527002.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
-        {
-          "title": "Disability Issues Digital Environment and Physical Infrastructure Subcommittee Meeting",
-          "matched_keywords": [
-            "environment"
-          ]
-        },
         {
           "title": "b. Digital Environment and Physical Infrastructure Subcommittee",
           "matched_keywords": [
