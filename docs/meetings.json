@@ -1,214 +1,126 @@
 {
-  "generated": "2026-04-24T17:16:42.115330",
+  "generated": "2026-05-01T16:22:53.272262",
   "window_days": 28,
-  "count": 14,
+  "count": 26,
   "meetings": [
     {
-      "body": "City Council Policy Session",
-      "date": "2026-04-28",
-      "time": "2:30 PM",
-      "location": "phoenix.gov",
+      "body": "The Moreland II Housing Corporation Special Board of Directors Meeting",
+      "date": "2026-05-01",
+      "time": "3:30 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260428001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260501001.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "REPORTS AND BUDGET UPDATES BY THE CITY MANAGER",
+          "title": "MORELAND II HOUSING CORPORATION and to the general public that the MORELAND II HOUSING",
           "matched_keywords": [
-            "budget"
+            "housing"
           ]
         },
         {
-          "title": "effective January 1, 2027. In early 2026, Reclamation released a Draft Environmental",
+          "title": "Housing Department at 602-495-6945/Voice or TTY: 7-1-1 as early as possible to coordinate needed arrangements.",
           "matched_keywords": [
-            "environmental"
+            "housing"
+          ]
+        },
+        {
+          "title": "C:\\Users\\093209\\Appdata\\Local\\Microsoft\\Windows\\Inetcache\\Content.Outlook\\N4RR6462\\Moreland II Housing Corporation Agenda 5 1 2026.Docx",
+          "matched_keywords": [
+            "housing"
           ]
         }
       ],
       "notes": ""
     },
     {
-      "body": "Zoning Adjustment Hearing",
-      "date": "2026-04-30",
-      "time": "9:00 AM",
+      "body": "The Phoenix Inner Beltway Housing Corporation Special Board of Directors Meeting",
+      "date": "2026-05-01",
+      "time": "3:30 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/april/260430001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260501005.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 2: Application ZA-140-26-6 \u2014 Variance to reduce the front yard (south) setback to 15 feet. Minimum 25 feet re",
+          "title": "Item 2: Adoption of Fiscal Agent Agreement Board",
           "matched_keywords": [
-            "variance"
+            "fiscal"
           ]
         },
         {
-          "title": "Item 6: Application ZA-232-24-1 \u2014 1) Variance to reduce building setbacks on the east side to 41 feet from residen",
+          "title": "PHOENIX INNER BELTWAY HOUSING CORPORATION and to the general public that the PHOENIX",
           "matched_keywords": [
-            "variance",
-            "zoning"
+            "housing"
           ]
         },
         {
-          "title": "Item 9: Application ZA-220-26-7 \u2014 1) Revocation of Zoning Adjustment Case No. ZA-36-13, Use permit to allow a Medi",
+          "title": "INNER BELTWAY HOUSING CORPORATION BOARD OF DIRECTORS will hold a special meeting open",
           "matched_keywords": [
-            "zoning"
+            "housing"
           ]
         },
         {
-          "title": "Item 10: Application ZA-224-26-7 \u2014 Time extension of ZA-675-25, use permit to utilize the Single-Family Infill (SFI",
+          "title": "Housing Department at 602-495-6945/Voice or TTY: 7-1-1 as early as possible to coordinate needed arrangements.",
           "matched_keywords": [
-            "infill"
+            "housing"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "South Mountain Village Planning Committee a New Life for the Mystery Castle Community Forum",
+      "date": "2026-05-02",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260502002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Deer Valley Village Planning Committee",
+      "date": "2026-05-04",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260504004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
           ]
         },
         {
-          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "title": "Presentation by Sarah Brown with the Public Transit Department.",
           "matched_keywords": [
-            "zoning"
+            "transit"
           ]
         },
         {
-          "title": "Existing Zoning: A-1 TOD-2",
+          "title": "a request to rezone 15.16 acres located at the southeast corner of Interstate 17",
           "matched_keywords": [
-            "zoning",
-            "tod"
+            "rezone"
           ]
         },
         {
-          "title": "2) Variance to allow a medical marijuana cultivation facility",
+          "title": "request to rezone 2.58 acres located approximately 200 feet north of the",
           "matched_keywords": [
-            "variance"
+            "rezone"
           ]
         },
         {
-          "title": "3) Variance to allow a medical marijuana cultivation facility",
+          "title": "request to rezone 15.98 acres located approximately 430 feet south of the",
           "matched_keywords": [
-            "variance"
+            "rezone"
           ]
         },
         {
-          "title": "4) Variance to allow a medical marijuana cultivation facility",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "within 1,000 feet of a residential zoning district. Minimum",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "5) Variance to allow a medical marijuana cultivation facility",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R1-10",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: C-2",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: A-2",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "5) Variance to allow a medical marijuana infusion facility",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Existing Zoning: PSC",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "to 41 feet from residential zoning.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Variance to reduce building setbacks on the north side",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "to 48 feet from residential zoning.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "3) Variance to allow 296 square feet (13%) of accessory",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "4) Variance to allow 579 square feet (24%) of accessory",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "300 feet from a residential zoning district.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: C-1, C-1 TOD-1 MH, P-2, R-5 HP SP, R-5 SP",
-          "matched_keywords": [
-            "zoning",
-            "tod"
-          ]
-        },
-        {
-          "title": "Existing Zoning: PUD PCD",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: A-1",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "2) Revocation of Zoning Adjustment Case No. ZA-36-13,",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Existing Zoning: R-3 SPVTABDO",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Single-Family Infill (SFI) development option. Use permit",
-          "matched_keywords": [
-            "infill"
-          ]
-        },
-        {
-          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "title": "Estate District), 14.26 acres of County RU-43 (Pending S-1) (Rural Zoning",
           "matched_keywords": [
             "zoning"
           ]
@@ -226,6 +138,227 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Regional Council Executive Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-05-04-Agenda.pdf"
+    },
+    {
+      "body": "Paradise Valley Village Planning Committee",
+      "date": "2026-05-04",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260504003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "zoning/villages/paradise-valley.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Camelback East Village Planning Committee",
+      "date": "2026-05-05",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "zoning/villages/camelback-east.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "City Council Policy Session",
+      "date": "2026-05-05",
+      "time": "2:30 PM",
+      "location": "phoenix.gov",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 1: Fiscal Year 2026-27 City Manager's Proposed Budget -",
+          "matched_keywords": [
+            "fiscal",
+            "budget"
+          ]
+        },
+        {
+          "title": "REPORTS AND BUDGET UPDATES BY THE CITY MANAGER",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "This report transmits a balanced Fiscal Year (FY) 2026-27 City",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "Manager's Proposed Budget for community review and comment. No",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "action is required at this time. Action on the FY 2026-27 budget is",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "This item is submitted by City Manager Ed Zuercher and the Budget",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "Budget for community review and comment. No action is required at this time.",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "Action on the FY 2026-27 budget is scheduled for the May 19, 2026 City Council",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "The FY 2026-27 City Manager's Trial Budget presented to City Council on March",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "budget process. Between March 30 and April 16, the City hosted 12 community budget",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "The proposed FY 2026-27 City Manager's Proposed Budget also includes",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "Non-General Fund additions presented in the Trial Budget.",
+          "matched_keywords": [
+            "budget",
+            "ada",
+            "affordable housing",
+            "appropriation",
+            "bicycle",
+            "bike lanes",
+            "brt",
+            "bus",
+            "bus rapid transit",
+            "canopy",
+            "capital improvement",
+            "cip",
+            "complete streets",
+            "crosswalks",
+            "downtown",
+            "environment",
+            "environmental",
+            "fare",
+            "fiscal",
+            "heat",
+            "housing",
+            "light rail",
+            "mixed-use",
+            "parking",
+            "pedestrian",
+            "proposition 400",
+            "shade",
+            "sidewalk",
+            "sidewalks",
+            "sustainability",
+            "t2050",
+            "traffic calming",
+            "transit",
+            "transportation",
+            "tree",
+            "trees",
+            "urban heat",
+            "vision zero",
+            "walkability",
+            "walkable"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Desert View Village Planning Committee",
+      "date": "2026-05-05",
+      "time": "6:30 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 3: INFORMATION ONLY: Presentation and discussion regarding planned transit",
+          "matched_keywords": [
+            "transit"
+          ]
+        },
+        {
+          "title": "\u2022 Staff Reports for conventional rezoning cases:",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "investments as part of the Transportation 2050 (T2050) plan and an update on",
+          "matched_keywords": [
+            "transportation",
+            "t2050"
+          ]
+        },
+        {
+          "title": "transit expansion in the Desert View Village.",
+          "matched_keywords": [
+            "transit"
+          ]
+        },
+        {
+          "title": "Presentation by Skitch Kitchen with the Public Transit Department.",
+          "matched_keywords": [
+            "transit"
+          ]
+        },
+        {
+          "title": "zoning/villages/desert-view.html.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Transportation Safety Committee",
@@ -250,6 +383,117 @@
       "notes": ""
     },
     {
+      "body": "City Council Formal Meeting",
+      "date": "2026-05-06",
+      "time": "2:30 PM",
+      "location": "phoenix.gov",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260506001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 28: Arizona Department of Environmental Quality",
+          "matched_keywords": [
+            "environmental"
+          ]
+        },
+        {
+          "title": "Item 30: United States Environmental Protection Agency",
+          "matched_keywords": [
+            "environmental"
+          ]
+        },
+        {
+          "title": "Item 53: Fiscal Year 2026-27 Housing and Urban Development",
+          "matched_keywords": [
+            "fiscal",
+            "housing"
+          ]
+        },
+        {
+          "title": "Item 60: Issuance of Multifamily Housing Revenue Bonds",
+          "matched_keywords": [
+            "multifamily",
+            "housing"
+          ]
+        },
+        {
+          "title": "Item 68: Parking Access Revenue Control System Maintenance",
+          "matched_keywords": [
+            "parking"
+          ]
+        },
+        {
+          "title": "Item 71: Request to Issue Request for Proposals for Bus",
+          "matched_keywords": [
+            "bus"
+          ]
+        },
+        {
+          "title": "Item 88: Amend City Code - Ordinance Adoption - Rezoning",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "Required Public Hearings on the Proposed Fiscal Year",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "2026-27 Budget for the City of Phoenix - Citywide",
+          "matched_keywords": [
+            "budget"
+          ]
+        },
+        {
+          "title": "Housing Rehabilitation Programs (Ordinance S-52839) -",
+          "matched_keywords": [
+            "housing"
+          ]
+        },
+        {
+          "title": "Series 2026, and Multifamily Housing Revenue Note",
+          "matched_keywords": [
+            "multifamily",
+            "housing"
+          ]
+        },
+        {
+          "title": "South Fixed Route Transit (Bus) Service Operations -",
+          "matched_keywords": [
+            "transit",
+            "bus"
+          ]
+        },
+        {
+          "title": "Lower Buckeye Road Fiber Transportation",
+          "matched_keywords": [
+            "transportation"
+          ]
+        },
+        {
+          "title": "Department of Transportation to Improve Southern",
+          "matched_keywords": [
+            "transportation",
+            "budget",
+            "capital improvement",
+            "downtown",
+            "environment",
+            "environmental",
+            "fiscal",
+            "land use",
+            "parking",
+            "public hearing",
+            "variance",
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "MAG ITS Committee",
       "date": "2026-05-06",
       "time": "See agenda",
@@ -261,7 +505,42 @@
       "notes": "Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-05-06-Agenda.pdf"
     },
     {
-      "body": "Zoning Adjustement Hearing",
+      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
+      "date": "2026-05-07",
+      "time": "9:00 AM",
+      "location": "301 W. Jefferson St., Phoenix AZ 85003",
+      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
+      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_05072026-3734?html=true",
+      "source_label": "Maricopa County",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Planning Commission",
+      "date": "2026-05-07",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507007.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 2: Application GPA-EST-1-25-7 \u2014 Minor General Plan Amendment to accommodate industrial development",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Item 5: Application Z-183-25-8 \u2014 Commercial and multifamily residential",
+          "matched_keywords": [
+            "multifamily"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Zoning Adjustment Hearing - Revised",
       "date": "2026-05-07",
       "time": "9:00 AM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
@@ -372,9 +651,10 @@
           ]
         },
         {
-          "title": "Existing Zoning: PSC",
+          "title": "Existing Zoning: PSC TOD-1",
           "matched_keywords": [
-            "zoning"
+            "zoning",
+            "tod"
           ]
         },
         {
@@ -415,15 +695,178 @@
       "notes": "Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-05-14-Agenda.pdf"
     },
     {
-      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "body": "Zoning Adjustment Hearing",
       "date": "2026-05-14",
-      "time": "~11:15 AM (estimate \u2014 verify)",
-      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
-      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
-      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
-      "source_label": "Valley Metro",
-      "relevant_items": [],
-      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260514001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 2: Application ZA-237-26-1 \u2014 1) Variance to allow a tobacco-oriented retailer (Stash House) to be located wit",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 3: Application ZA-256-26-6 \u2014 1) Use permit to allow a detached accessory dwelling unit between the primary dw",
+          "matched_keywords": [
+            "accessory dwelling"
+          ]
+        },
+        {
+          "title": "Item 6: Application ZA-39-26-6 \u2014 Time extension for ZA-605-25, variance to reduce side yard (west) setback to 3 f",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 7: Application ZA-217-26-4 \u2014 1) Variance to increase the area of a wall sign for a total of 474 square feet. ",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 8: Application ZA-231-26-6 \u2014 Variance to allow 15 items of information on a ground sign. Maximum 10 items all",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 9: Application ZA-238-26-6 \u2014 Variance to increase the height of a wall sign for non- residential activity in ",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 10: Application ZA-101-26-5 \u2014 Variance to allow a minimum lot width of 55 feet. Minimum lot width of 60 feet r",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 12: Application ZA-252-26-6 \u2014 Variance to reduce the side yard setback (west) to 10 feet. Minimum 20 feet requ",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Item 14: Application ZA-160-26-1 \u2014 Variance to reduce the required side yard setback (south) for a detached accesso",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-2",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to allow a tobacco-oriented retailer (Stash",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-14 ACSPD",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to reduce the front yard setback (east) for a",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "detached accessory dwelling unit to 8 feet. Minimum 30",
+          "matched_keywords": [
+            "accessory dwelling"
+          ]
+        },
+        {
+          "title": "Existing Zoning: A-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "3) Time extension for ZA-295-18, variance to allow a",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "4) Time extension for ZA-295-18, variance to allow a",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R1-10 ACSPD",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: C-3 MH, A-1 MH",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to break the silhouette of the building on",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R-5 CEPCSP",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: R-3",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: PSC",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: RE-35 ACSPD",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Existing Zoning: S-1",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Active Transportation Committee",
@@ -468,6 +911,52 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-05-21-Agenda.pdf"
+    },
+    {
+      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "date": "2026-05-21",
+      "time": "~11:15 AM (estimate \u2014 verify)",
+      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
+      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
+      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
+      "source_label": "Valley Metro",
+      "relevant_items": [],
+      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+    },
+    {
+      "body": "MAG Regional Council",
+      "date": "2026-05-27",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-05-27-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-05-27-Agenda.pdf"
+    },
+    {
+      "body": "Phoenix Mayor's Commission on Disability Issues (MCDI) Virtual Meeting",
+      "date": "2026-05-27",
+      "time": "4:15 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260527002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Disability Issues Digital Environment and Physical Infrastructure Subcommittee Meeting",
+          "matched_keywords": [
+            "environment"
+          ]
+        },
+        {
+          "title": "b. Digital Environment and Physical Infrastructure Subcommittee",
+          "matched_keywords": [
+            "environment"
+          ]
+        }
+      ],
+      "notes": ""
     }
   ]
 }
