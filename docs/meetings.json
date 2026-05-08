@@ -1,489 +1,123 @@
 {
-  "generated": "2026-05-01T17:37:28.715360",
+  "generated": "2026-05-08T18:54:19.990642",
   "window_days": 28,
-  "count": 27,
+  "count": 24,
   "meetings": [
     {
-      "body": "The Moreland II Housing Corporation Special Board of Directors Meeting",
-      "date": "2026-05-01",
-      "time": "3:30 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260501001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "MORELAND II HOUSING CORPORATION and to the general public that the MORELAND II HOUSING",
-          "matched_keywords": [
-            "housing"
-          ]
-        },
-        {
-          "title": "Housing Department at 602-495-6945/Voice or TTY: 7-1-1 as early as possible to coordinate needed arrangements.",
-          "matched_keywords": [
-            "housing"
-          ]
-        },
-        {
-          "title": "C:\\Users\\093209\\Appdata\\Local\\Microsoft\\Windows\\Inetcache\\Content.Outlook\\N4RR6462\\Moreland II Housing Corporation Agenda 5 1 2026.Docx",
-          "matched_keywords": [
-            "housing"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "The Phoenix Inner Beltway Housing Corporation Special Board of Directors Meeting",
-      "date": "2026-05-01",
-      "time": "3:30 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260501005.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 2: Adoption of Fiscal Agent Agreement Board For Information, Discussion, and Action",
-          "matched_keywords": [
-            "fiscal"
-          ]
-        },
-        {
-          "title": "PHOENIX INNER BELTWAY HOUSING CORPORATION and to the general public that the PHOENIX",
-          "matched_keywords": [
-            "housing"
-          ]
-        },
-        {
-          "title": "INNER BELTWAY HOUSING CORPORATION BOARD OF DIRECTORS will hold a special meeting open",
-          "matched_keywords": [
-            "housing"
-          ]
-        },
-        {
-          "title": "Housing Department at 602-495-6945/Voice or TTY: 7-1-1 as early as possible to coordinate needed arrangements.",
-          "matched_keywords": [
-            "housing"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "South Mountain Village Planning Committee a New Life for the Mystery Castle Community Forum",
-      "date": "2026-05-02",
-      "time": "2:00 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260502002.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Deer Valley Village Planning Committee",
-      "date": "2026-05-04",
+      "body": "Central City Village Planning Committee - Revised",
+      "date": "2026-05-11",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260504004.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "MAG Regional Council Executive Committee",
-      "date": "2026-05-04",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-05-04-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Regional Council Executive Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-05-04-Agenda.pdf"
-    },
-    {
-      "body": "Paradise Valley Village Planning Committee",
-      "date": "2026-05-04",
-      "time": "6:00 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260504003.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260511003.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "zoning/villages/paradise-valley.",
+          "title": "Item 4: Presentation and discussion regarding the South Central Transit Oriented Development (TOD) Implementation Project progress and upcoming engagement events.",
           "matched_keywords": [
-            "zoning"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "Camelback East Village Planning Committee",
-      "date": "2026-05-05",
-      "time": "6:00 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505004.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "zoning/villages/camelback-east.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "City Council Policy Session",
-      "date": "2026-05-05",
-      "time": "2:30 PM",
-      "location": "phoenix.gov",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 1: Fiscal Year 2026-27 City Manager's Proposed Budget -",
-          "matched_keywords": [
-            "fiscal",
-            "budget"
-          ]
-        },
-        {
-          "title": "REPORTS AND BUDGET UPDATES BY THE CITY MANAGER",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "This report transmits a balanced Fiscal Year (FY) 2026-27 City",
-          "matched_keywords": [
-            "fiscal"
-          ]
-        },
-        {
-          "title": "Manager's Proposed Budget for community review and comment. No",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "action is required at this time. Action on the FY 2026-27 budget is",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "This item is submitted by City Manager Ed Zuercher and the Budget",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "Budget for community review and comment. No action is required at this time.",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "Action on the FY 2026-27 budget is scheduled for the May 19, 2026 City Council",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "The FY 2026-27 City Manager's Trial Budget presented to City Council on March",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "budget process. Between March 30 and April 16, the City hosted 12 community budget",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "The proposed FY 2026-27 City Manager's Proposed Budget also includes",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "Non-General Fund additions presented in the Trial Budget.",
-          "matched_keywords": [
-            "budget",
-            "ada",
-            "affordable housing",
-            "appropriation",
-            "bicycle",
-            "bike lanes",
-            "brt",
-            "bus",
-            "bus rapid transit",
-            "canopy",
-            "capital improvement",
-            "cip",
-            "complete streets",
-            "crosswalks",
-            "downtown",
-            "environment",
-            "environmental",
-            "fare",
-            "fiscal",
-            "heat",
-            "housing",
-            "light rail",
-            "mixed-use",
-            "parking",
-            "pedestrian",
-            "proposition 400",
-            "shade",
-            "sidewalk",
-            "sidewalks",
-            "sustainability",
-            "t2050",
-            "traffic calming",
             "transit",
-            "transportation",
-            "tree",
-            "trees",
-            "urban heat",
-            "vision zero",
-            "walkability",
-            "walkable"
+            "tod"
+          ]
+        },
+        {
+          "title": "Item 6: INFORMATION ONLY - GPA-CC-SM-1-26-7-8: Presentation and discussion regarding a Major General Plan Amendment for the Rio Salado District Policy Plan (RIO PHX).",
+          "matched_keywords": [
+            "general plan"
           ]
         }
       ],
       "notes": ""
     },
     {
-      "body": "Desert View Village Planning Committee",
-      "date": "2026-05-05",
+      "body": "Laveen Village Planning Committee",
+      "date": "2026-05-11",
       "time": "6:30 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260505003.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260511002.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 3: Presentation and discussion regarding planned transit investments as part of the Transportation 2050 (T2050) plan and an update on transit expansion in the Desert View Village.",
-          "matched_keywords": [
-            "transit",
-            "transportation",
-            "t2050"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "MAG Transportation Safety Committee",
-      "date": "2026-05-05",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-05-05-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Transportation Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-05-05-Agenda.pdf"
-    },
-    {
-      "body": "Board of Supervisors - Planning and Zoning",
-      "date": "2026-05-06",
-      "time": "9:00 AM",
-      "location": "301 W. Jefferson St., Phoenix AZ 85003",
-      "virtual_url": "https://www.maricopa.gov/324",
-      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_05062026-3727?html=true",
-      "source_label": "Maricopa County",
       "relevant_items": [],
       "notes": ""
     },
     {
-      "body": "City Council Formal Meeting",
-      "date": "2026-05-06",
-      "time": "2:30 PM",
+      "body": "City Council Special Meeting",
+      "date": "2026-05-12",
+      "time": "12:30 PM",
       "location": "phoenix.gov",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260506001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260512006.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 28: Arizona Department of Environmental Quality",
-          "matched_keywords": [
-            "environmental"
-          ]
-        },
-        {
-          "title": "Item 30: United States Environmental Protection Agency",
-          "matched_keywords": [
-            "environmental"
-          ]
-        },
-        {
-          "title": "Item 53: Fiscal Year 2026-27 Housing and Urban Development",
-          "matched_keywords": [
-            "fiscal",
-            "housing"
-          ]
-        },
-        {
-          "title": "Item 60: Issuance of Multifamily Housing Revenue Bonds",
-          "matched_keywords": [
-            "multifamily",
-            "housing"
-          ]
-        },
-        {
-          "title": "Item 68: Parking Access Revenue Control System Maintenance",
-          "matched_keywords": [
-            "parking"
-          ]
-        },
-        {
-          "title": "Item 71: Request to Issue Request for Proposals for Bus",
-          "matched_keywords": [
-            "bus"
-          ]
-        },
-        {
-          "title": "Item 88: Amend City Code - Ordinance Adoption - Rezoning",
-          "matched_keywords": [
-            "rezoning"
-          ]
-        },
-        {
-          "title": "Required Public Hearings on the Proposed Fiscal Year",
-          "matched_keywords": [
-            "fiscal"
-          ]
-        },
-        {
-          "title": "2026-27 Budget for the City of Phoenix - Citywide",
-          "matched_keywords": [
-            "budget"
-          ]
-        },
-        {
-          "title": "Housing Rehabilitation Programs (Ordinance S-52839) -",
-          "matched_keywords": [
-            "housing"
-          ]
-        },
-        {
-          "title": "Series 2026, and Multifamily Housing Revenue Note",
-          "matched_keywords": [
-            "multifamily",
-            "housing"
-          ]
-        },
-        {
-          "title": "South Fixed Route Transit (Bus) Service Operations -",
-          "matched_keywords": [
-            "transit",
-            "bus"
-          ]
-        },
-        {
-          "title": "Lower Buckeye Road Fiber Transportation",
-          "matched_keywords": [
-            "transportation"
-          ]
-        },
-        {
-          "title": "Department of Transportation to Improve Southern",
-          "matched_keywords": [
-            "transportation",
-            "budget",
-            "capital improvement",
-            "downtown",
-            "environment",
-            "environmental",
-            "fiscal",
-            "land use",
-            "parking",
-            "public hearing",
-            "variance",
-            "zoning"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "MAG ITS Committee",
-      "date": "2026-05-06",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-05-06-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-05-06-Agenda.pdf"
-    },
-    {
-      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
-      "date": "2026-05-07",
-      "time": "9:00 AM",
-      "location": "301 W. Jefferson St., Phoenix AZ 85003",
-      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
-      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_05072026-3734?html=true",
-      "source_label": "Maricopa County",
       "relevant_items": [],
       "notes": ""
     },
     {
-      "body": "Planning Commission",
-      "date": "2026-05-07",
+      "body": "Rio Vista Village Planning Committee",
+      "date": "2026-05-12",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507007.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260512002.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [],
       "notes": ""
     },
     {
-      "body": "Site Plan Review Team: 3327 West Harris Street",
-      "date": "2026-05-07",
-      "time": "2:00 PM",
+      "body": "South Mountain Village Planning Committee",
+      "date": "2026-05-12",
+      "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507008.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Zoning Adjustment Hearing - Revised",
-      "date": "2026-05-07",
-      "time": "9:00 AM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260507001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260512003.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "title": "Item 5: INFORMATION ONLY - GPA-CC-SM-1-26-7-8: Presentation and discussion regarding a Major General Plan Amendment for the Rio Salado District Policy Plan (RIO PHX).",
           "matched_keywords": [
-            "zoning"
+            "general plan"
           ]
         },
         {
-          "title": "2) Variance to allow an over height fence (7 feet) in the required front yard (north). Maximum 40 inches permitted.",
+          "title": "Presentation by Sarah Brown and Kevin Teng with the Public Transit Department.",
           "matched_keywords": [
-            "variance"
+            "transit"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Environmental Quality and Sustainability Commission",
+      "date": "2026-05-13",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260513004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 3: GO Bond Overview Rosanne Albright, Environmental Programs Manager, Environmental This item is for information, discussion and possible action. Programs",
+          "matched_keywords": [
+            "environmental"
           ]
         },
         {
-          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "title": "ENVIRONMENTAL QUALITY AND SUSTAINABILITY COMMISSION and to the",
           "matched_keywords": [
-            "zoning"
+            "environmental",
+            "sustainability"
+          ]
+        },
+        {
+          "title": "general public, that the ENVIRONMENTAL QUALITY AND SUSTAINABILITY",
+          "matched_keywords": [
+            "environmental",
+            "sustainability"
+          ]
+        },
+        {
+          "title": "oepinfo@phoenix.gov, or call Office of Environmental Programs at 602-256-5669.",
+          "matched_keywords": [
+            "environmental"
           ]
         }
       ],
@@ -499,6 +133,35 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Management Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/MC/MC-2026-05-13-Agenda.pdf"
+    },
+    {
+      "body": "Maryvale Village Planning Committee",
+      "date": "2026-05-13",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260513003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "zoning/villages/maryvale.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Board of Adjustment Meeting - BOS Auditorium & GoTo Webinar",
+      "date": "2026-05-14",
+      "time": "9:00 AM",
+      "location": "301 W. Jefferson St., Phoenix AZ 85003",
+      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
+      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_05142026-3739?html=true",
+      "source_label": "Maricopa County",
+      "relevant_items": [],
+      "notes": ""
     },
     {
       "body": "MAG Environment & Sustainable Communities",
@@ -536,6 +199,24 @@
       "notes": ""
     },
     {
+      "body": "Camelback East Village Planning Committee Application Review Committee (ARC) Subcommittee",
+      "date": "2026-05-19",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260519002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "virtual environment for the public, applicants and other staff members, we",
+          "matched_keywords": [
+            "environment"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "MAG Active Transportation Committee",
       "date": "2026-05-19",
       "time": "See agenda",
@@ -545,6 +226,17 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Active Transportation Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-05-19-Agenda.pdf"
+    },
+    {
+      "body": "Board of Supervisors - Planning and Zoning",
+      "date": "2026-05-20",
+      "time": "9:00 AM",
+      "location": "301 W. Jefferson St., Phoenix AZ 85003",
+      "virtual_url": "https://www.maricopa.gov/324",
+      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_05202026-3738?html=true",
+      "source_label": "Maricopa County",
+      "relevant_items": [],
+      "notes": ""
     },
     {
       "body": "MAG Transportation Policy Committee",
@@ -580,15 +272,46 @@
       "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-05-21-Agenda.pdf"
     },
     {
-      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "body": "Zoning Adjustment Hearing",
       "date": "2026-05-21",
-      "time": "~11:15 AM (estimate \u2014 verify)",
-      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
-      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
-      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
-      "source_label": "Valley Metro",
-      "relevant_items": [],
-      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/may/260521002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to reduce minimum shading to 50% along 44th Street. Minimum 75% frontage shading required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "3) Time extension of ZA-77-25, variance to reduce the landscape setback (west) not adjacent to a street to 0 feet. Minimum 10 feet required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "4) Time extension of ZA-77-25, variance to reduce the building setback (west) not adjacent to a street to 15 feet. Minimum 50 feet required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Regional Council",
@@ -618,6 +341,50 @@
         }
       ],
       "notes": ""
+    },
+    {
+      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "date": "2026-05-28",
+      "time": "~11:15 AM (estimate \u2014 verify)",
+      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
+      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
+      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
+      "source_label": "Valley Metro",
+      "relevant_items": [],
+      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+    },
+    {
+      "body": "MAG Regional Council Executive Committee",
+      "date": "2026-06-01",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-06-01-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Regional Council Executive Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-06-01-Agenda.pdf"
+    },
+    {
+      "body": "MAG Transportation Safety Committee",
+      "date": "2026-06-02",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-06-02-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Transportation Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-06-02-Agenda.pdf"
+    },
+    {
+      "body": "MAG ITS Committee",
+      "date": "2026-06-03",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-06-03-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-06-03-Agenda.pdf"
     }
   ]
 }
