@@ -1,66 +1,7 @@
-PHOENIX-AREA POLICY MEETINGS — Week of June 12, 2026
+PHOENIX-AREA POLICY MEETINGS — Week of June 19, 2026
 Urban Phoenix Project & Valley Urban Action Alliance
 Full tracker: https://urbanphoenixproject.github.io/meetings
 ==============================================================
-
-[MAG]  MAG Active Transportation Committee
-  Tuesday, June 16, 2026  |  See agenda
-  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
-  Virtual: https://azmag.gov/About-Us/Calendar
-  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-06-16-Agenda.pdf
-  Note: Estimated meeting date based on typical MAG Active Transportation Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-06-16-Agenda.pdf
-
-[MARICOPA COUNTY]  Transportation Advisory Board Meeting (June 16, 2026)
-  Tuesday, June 16, 2026  |  9:00 AM
-  301 W. Jefferson St., Phoenix AZ 85003
-  Virtual: https://www.maricopa.gov/324
-  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_06162026-3775
-  Agenda items: pending
-
-[CITY OF PHOENIX]  City Council Formal Meeting
-  Wednesday, June 17, 2026  |  2:30 PM
-  phoenix.gov
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/june/260617002.pdf
-  * Item 36: Maricopa County Environmental Services Department
-  * Item 44: Public Hearing on Proposed Property Tax Levy, Truth
-  * Item 46: Adoption of the Final 2026-27 Operating Funds Budget
-  * Item 47: Adoption of the Final 2026-27 Capital Funds Budget
-  * Item 61: Plants, Cacti, Succulents, and Trees - RFQu 23-026 -
-  * Item 66: Dedication of an Easement for Sidewalk Purposes
-
-[MAG]  MAG Transportation Policy Committee
-  Wednesday, June 17, 2026  |  See agenda
-  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
-  Virtual: https://azmag.gov/About-Us/Calendar
-  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-06-17-Agenda.pdf
-  Note: Estimated meeting date based on typical MAG Transportation Policy Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-06-17-Agenda.pdf
-
-[MARICOPA COUNTY]  Board of Adjustment Meeting - BOS Auditorium & GoTo Webinar
-  Thursday, June 18, 2026  |  9:00 AM
-  301 W. Jefferson St., Phoenix AZ 85003
-  Virtual: https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)
-  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_06182026-3774?html=true
-  Agenda items: pending
-
-[MAG]  MAG Human Services & Public Safety Committee
-  Thursday, June 18, 2026  |  See agenda
-  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
-  Virtual: https://azmag.gov/About-Us/Calendar
-  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-06-18-Agenda.pdf
-  Note: Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-06-18-Agenda.pdf
-
-[CITY OF PHOENIX]  Planning Commission
-  Thursday, June 18, 2026  |  6:00 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/june/260618005.pdf
-  * SALADO DISTRICT POLICY PLAN AND GENERAL PLAN LAND USE MAP
-
-[CITY OF PHOENIX]  Zoning Adjustment Hearing
-  Thursday, June 18, 2026  |  9:00 AM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/june/260618002.pdf
-  * HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING
-  * Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To
 
 [MAG]  MAG Regional Council
   Wednesday, June 24, 2026  |  See agenda
@@ -68,6 +9,13 @@ Full tracker: https://urbanphoenixproject.github.io/meetings
   Virtual: https://azmag.gov/About-Us/Calendar
   Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-06-24-Agenda.pdf
   Note: Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-06-24-Agenda.pdf
+
+[MARICOPA COUNTY]  Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar
+  Thursday, June 25, 2026  |  9:00 AM
+  301 W. Jefferson St., Phoenix AZ 85003
+  Virtual: https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)
+  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_06252026-3779?html=true
+  Agenda items: pending
 
 [CITY OF PHOENIX]  Zoning Adjustment Hearing
   Thursday, June 25, 2026  |  9:00 AM
@@ -83,12 +31,18 @@ Full tracker: https://urbanphoenixproject.github.io/meetings
   Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-07-01-Agenda.pdf
   Note: Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-07-01-Agenda.pdf
 
-[VALLEY METRO]  Valley Metro Board of Directors (RPTA & VMR)
-  Thursday, July 2, 2026  |  ~11:15 AM (estimate — verify)
-  101 N. 1st Ave, Suite 1400, Phoenix AZ 85003
-  Virtual: https://www.valleymetro.org/event/valley-metro-board-meetings
-  Agenda: https://www.valleymetro.org/about/boards-directors/board-book
-  Note: Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book — boards typically meet on the third Thursday of each month.
+[CITY OF PHOENIX]  The Phoenix Mayor's Commission on Disability Issues Vote the Spectrum Spark the Spectrum Accessible Voting Workshop
+  Thursday, July 2, 2026  |  3:30 PM
+  City of Phoenix (see notice PDF for location/virtual link)
+  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260708001.pdf
+  Agenda items: pending
+
+[CITY OF PHOENIX]  Zoning Adjustment Hearing
+  Thursday, July 2, 2026  |  9:00 AM
+  City of Phoenix (see notice PDF for location/virtual link)
+  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260702003.pdf
+  * HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING
+  * Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To
 
 [MAG]  MAG Regional Council Executive Committee
   Monday, July 6, 2026  |  See agenda
@@ -117,3 +71,24 @@ Full tracker: https://urbanphoenixproject.github.io/meetings
   Virtual: https://azmag.gov/About-Us/Calendar
   Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-07-09-Agenda.pdf
   Note: Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-07-09-Agenda.pdf
+
+[VALLEY METRO]  Valley Metro Board of Directors (RPTA & VMR)
+  Thursday, July 9, 2026  |  ~11:15 AM (estimate — verify)
+  101 N. 1st Ave, Suite 1400, Phoenix AZ 85003
+  Virtual: https://www.valleymetro.org/event/valley-metro-board-meetings
+  Agenda: https://www.valleymetro.org/about/boards-directors/board-book
+  Note: Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book — boards typically meet on the third Thursday of each month.
+
+[MAG]  MAG Transportation Policy Committee
+  Wednesday, July 15, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-07-15-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Transportation Policy Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-07-15-Agenda.pdf
+
+[MAG]  MAG Human Services & Public Safety Committee
+  Thursday, July 16, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-07-16-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-07-16-Agenda.pdf
