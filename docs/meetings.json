@@ -1,15 +1,26 @@
 {
-  "generated": "2026-07-10T16:25:03.472342",
+  "generated": "2026-07-11T03:09:25.437691",
   "window_days": 28,
   "count": 17,
   "meetings": [
     {
-      "body": "Central City Village Planning Committee",
+      "body": "Camelback East Village Planning Committee The Orchard Pud Neighborhood Meeting",
       "date": "2026-07-13",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260713002.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260713004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Central City Village Planning Committee- Revised",
+      "date": "2026-07-13",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260713003.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
@@ -17,37 +28,56 @@
           "matched_keywords": [
             "general plan"
           ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "Laveen Village Planning Committee",
-      "date": "2026-07-13",
-      "time": "6:30 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260713003.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
+        },
         {
-          "title": "Item 3: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft \u201cCenters\u201d (areas for growth), summit results, and updated work plan/schedule.",
+          "title": "regarding a Major General Plan Amendment for the Rio Salado District Policy",
           "matched_keywords": [
             "general plan"
+          ]
+        },
+        {
+          "title": "regarding a Major General Plan Amendment to update the General Plan Land",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Policy Plan (RIO PHX). This land use map amendment encompasses",
+          "matched_keywords": [
+            "land use"
           ]
         }
       ],
       "notes": ""
     },
     {
-      "body": "South Mountain Village Planning Committee",
+      "body": "South Mountain Village Planning Committee - Revised",
       "date": "2026-07-14",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260714003.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [],
+      "relevant_items": [
+        {
+          "title": "regarding a Major General Plan Amendment for the Rio Salado District Policy",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "regarding a Major General Plan Amendment to update the General Plan Land",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Policy Plan (RIO PHX). This land use map amendment encompasses",
+          "matched_keywords": [
+            "land use"
+          ]
+        }
+      ],
       "notes": ""
     },
     {
