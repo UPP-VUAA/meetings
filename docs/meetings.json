@@ -1,15 +1,15 @@
 {
-  "generated": "2026-07-24T15:25:42.339416",
+  "generated": "2026-07-31T16:02:27.495107",
   "window_days": 28,
-  "count": 13,
+  "count": 11,
   "meetings": [
     {
-      "body": "Ahwatukee Foothills Village Planning Committee",
-      "date": "2026-07-27",
+      "body": "Encanto Village Planning Committee",
+      "date": "2026-08-03",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260727002.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260803002.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
@@ -19,66 +19,25 @@
           ]
         },
         {
-          "title": "Item 4: Presentation and discussion regarding rezoning process requirements. Presentation by staff.",
+          "title": "Item 5: Presentation and discussion regarding West Phoenix Light Rail Extension.",
           "matched_keywords": [
-            "rezoning"
+            "light rail"
           ]
         },
         {
-          "title": "4. INFORMATION ONLY: Presentation and discussion regarding rezoning process requirements. Presentation by staff.",
+          "title": "5. INFORMATION ONLY: Presentation and discussion regarding West Phoenix Light Rail Extension.",
           "matched_keywords": [
-            "rezoning"
+            "light rail"
           ]
         },
         {
-          "title": "zoning/villages/ahwatukee-foothills.",
+          "title": "zoning/villages/encanto.",
           "matched_keywords": [
             "zoning"
           ]
         }
       ],
       "notes": ""
-    },
-    {
-      "body": "Zoning Adjustment Hearing",
-      "date": "2026-07-30",
-      "time": "9:00 AM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/july/260730001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "3) Variance to reduce the garage door setback to 0 feet. Minimum 3 feet required.",
-          "matched_keywords": [
-            "variance"
-          ]
-        },
-        {
-          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
-          "matched_keywords": [
-            "zoning"
-          ]
-        }
-      ],
-      "notes": ""
-    },
-    {
-      "body": "MAG Regional Council Executive Committee",
-      "date": "2026-08-03",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-08-03-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Regional Council Executive Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-08-03-Agenda.pdf"
     },
     {
       "body": "Paradise Valley Village Planning Committee",
@@ -99,26 +58,80 @@
       "notes": ""
     },
     {
-      "body": "MAG Transportation Safety Committee",
+      "body": "Camelback  East Village Planning Committee",
       "date": "2026-08-04",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-08-04-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Transportation Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-08-04-Agenda.pdf"
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260804001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 4: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft \u201cCenters\u201d (areas for growth), summit results, and updated work plan/schedule.",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Item 5: Presentation and discussion regarding rezoning process requirements. Presentation by staff.",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "5. INFORMATION ONLY: Presentation and discussion regarding rezoning process requirements. Presentation by staff.",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "zoning/villages/camelback-east.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
-      "body": "MAG ITS Committee",
-      "date": "2026-08-05",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-08-05-Agenda.pdf",
-      "source_label": "MAG",
+      "body": "Desert Village Planning Committee",
+      "date": "2026-08-04",
+      "time": "6:30 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260804003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 4: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft \u201cCenters\u201d (areas for growth), summit results, and updated work plan/schedule.",
+          "matched_keywords": [
+            "general plan"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
+      "date": "2026-08-06",
+      "time": "9:00 AM",
+      "location": "301 W. Jefferson St., Phoenix AZ 85003",
+      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
+      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_08062026-3815?html=true",
+      "source_label": "Maricopa County",
       "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-08-05-Agenda.pdf"
+      "notes": ""
+    },
+    {
+      "body": "Planning Commission",
+      "date": "2026-08-06",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260806003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
     },
     {
       "body": "Zoning Adjustment Hearing",
@@ -145,30 +158,86 @@
       "notes": ""
     },
     {
-      "body": "MAG Management Committee",
-      "date": "2026-08-12",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/MC/MC-2026-08-12-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Management Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/MC/MC-2026-08-12-Agenda.pdf"
+      "body": "Rio Vista Village Planning Committee",
+      "date": "2026-08-11",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260811002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 5: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft \u201cCenters\u201d (areas for growth), summit results, and updated work plan/schedule.",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "Transportation (MCDOT).",
+          "matched_keywords": [
+            "transportation"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
-      "body": "MAG Environment & Sustainable Communities",
+      "body": "North Gateway Village Planning Committee",
       "date": "2026-08-13",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-08-13-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-08-13-Agenda.pdf"
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260813002.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 4: Presentation and discussion regarding an update on the North Valley Transportation Study.",
+          "matched_keywords": [
+            "transportation"
+          ]
+        },
+        {
+          "title": "Item 6: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft \u201cCenters\u201d (areas for growth), summit results, and updated work plan/schedule.",
+          "matched_keywords": [
+            "general plan"
+          ]
+        },
+        {
+          "title": "4. INFORMATION ONLY: Presentation and discussion regarding an update on the North Valley Transportation Study.",
+          "matched_keywords": [
+            "transportation"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "body": "Zoning Adjustment Hearing",
+      "date": "2026-08-13",
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260813001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "Valley Metro Board of Directors (RPTA & VMR)",
-      "date": "2026-08-13",
+      "date": "2026-08-20",
       "time": "~11:15 AM (estimate \u2014 verify)",
       "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
       "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
@@ -176,39 +245,6 @@
       "source_label": "Valley Metro",
       "relevant_items": [],
       "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
-    },
-    {
-      "body": "MAG Active Transportation Committee",
-      "date": "2026-08-18",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-08-18-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Active Transportation Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-08-18-Agenda.pdf"
-    },
-    {
-      "body": "MAG Transportation Policy Committee",
-      "date": "2026-08-19",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-08-19-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Transportation Policy Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-08-19-Agenda.pdf"
-    },
-    {
-      "body": "MAG Human Services & Public Safety Committee",
-      "date": "2026-08-20",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-08-20-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-08-20-Agenda.pdf"
     }
   ]
 }
