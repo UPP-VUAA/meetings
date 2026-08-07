@@ -1,57 +1,7 @@
-PHOENIX-AREA POLICY MEETINGS — Week of July 31, 2026
+PHOENIX-AREA POLICY MEETINGS — Week of August 7, 2026
 Urban Phoenix Project & Valley Urban Action Alliance
 Full tracker: https://upp-vuaa.github.io/meetings
 ==============================================================
-
-[CITY OF PHOENIX]  Encanto Village Planning Committee
-  Monday, August 3, 2026  |  6:00 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260803002.pdf
-  * Item 3: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft “Centers” (areas for growth), summit results, and updated work plan/schedule.
-  * Item 5: Presentation and discussion regarding West Phoenix Light Rail Extension.
-  * 5. INFORMATION ONLY: Presentation and discussion regarding West Phoenix Light Rail Extension.
-  * zoning/villages/encanto.
-
-[CITY OF PHOENIX]  Paradise Valley Village Planning Committee
-  Monday, August 3, 2026  |  6:00 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260803001.pdf
-  * zoning/villages/paradise-valley.
-
-[CITY OF PHOENIX]  Camelback  East Village Planning Committee
-  Tuesday, August 4, 2026  |  6:00 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260804001.pdf
-  * Item 4: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft “Centers” (areas for growth), summit results, and updated work plan/schedule.
-  * Item 5: Presentation and discussion regarding rezoning process requirements. Presentation by staff.
-  * 5. INFORMATION ONLY: Presentation and discussion regarding rezoning process requirements. Presentation by staff.
-  * zoning/villages/camelback-east.
-
-[CITY OF PHOENIX]  Desert Village Planning Committee
-  Tuesday, August 4, 2026  |  6:30 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260804003.pdf
-  * Item 4: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft “Centers” (areas for growth), summit results, and updated work plan/schedule.
-
-[MARICOPA COUNTY]  Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar
-  Thursday, August 6, 2026  |  9:00 AM
-  301 W. Jefferson St., Phoenix AZ 85003
-  Virtual: https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)
-  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_08062026-3815?html=true
-  Agenda items: pending
-
-[CITY OF PHOENIX]  Planning Commission
-  Thursday, August 6, 2026  |  6:00 PM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260806003.pdf
-  Agenda items: pending
-
-[CITY OF PHOENIX]  Zoning Adjustment Hearing
-  Thursday, August 6, 2026  |  9:00 AM
-  City of Phoenix (see notice PDF for location/virtual link)
-  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260806001.pdf
-  * HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING
-  * Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To
 
 [CITY OF PHOENIX]  Rio Vista Village Planning Committee
   Tuesday, August 11, 2026  |  6:00 PM
@@ -59,6 +9,41 @@ Full tracker: https://upp-vuaa.github.io/meetings
   Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260811002.pdf
   * Item 5: PlanPHX General Plan 2025 Next Steps: Presentation and discussion on draft “Centers” (areas for growth), summit results, and updated work plan/schedule.
   * Transportation (MCDOT).
+
+[MAG]  MAG Management Committee
+  Wednesday, August 12, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/MC/MC-2026-08-12-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Management Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/MC/MC-2026-08-12-Agenda.pdf
+
+[CITY OF PHOENIX]  Maryvale Village Planning Committee
+  Wednesday, August 12, 2026  |  6:00 PM
+  City of Phoenix (see notice PDF for location/virtual link)
+  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260812002.pdf
+  * zoning/villages/maryvale.
+
+[MARICOPA COUNTY]  Board of Adjustment Meeting - BOS Auditorium & GoTo Webinar
+  Thursday, August 13, 2026  |  9:00 AM
+  301 W. Jefferson St., Phoenix AZ 85003
+  Virtual: https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)
+  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_08132026-3819?html=true
+  Agenda items: pending
+
+[CITY OF PHOENIX]  Environmental Quality and Sustainability Commission
+  Thursday, August 13, 2026  |  2:00 PM
+  City of Phoenix (see notice PDF for location/virtual link)
+  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260813006.pdf
+  * ENVIRONMENTAL QUALITY AND SUSTAINABILITY COMMISSION and to the
+  * general public, that the ENVIRONMENTAL QUALITY AND SUSTAINABILITY
+  * oepinfo@phoenix.gov, or call Office of Environmental Programs at 602-256-5669.
+
+[MAG]  MAG Environment & Sustainable Communities
+  Thursday, August 13, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-08-13-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-08-13-Agenda.pdf
 
 [CITY OF PHOENIX]  North Gateway Village Planning Committee
   Thursday, August 13, 2026  |  6:00 PM
@@ -75,9 +60,66 @@ Full tracker: https://upp-vuaa.github.io/meetings
   * HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING
   * Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To
 
+[MAG]  MAG Active Transportation Committee
+  Tuesday, August 18, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-08-18-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Active Transportation Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-08-18-Agenda.pdf
+
+[MARICOPA COUNTY]  Board of Supervisors - Planning and Zoning Items
+  Wednesday, August 19, 2026  |  9:00 AM
+  301 W. Jefferson St., Phoenix AZ 85003
+  Virtual: https://www.maricopa.gov/324
+  Agenda: https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_08192026-3820?html=true
+  Agenda items: pending
+
+[MAG]  MAG Transportation Policy Committee
+  Wednesday, August 19, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-08-19-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Transportation Policy Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-08-19-Agenda.pdf
+
+[MAG]  MAG Human Services & Public Safety Committee
+  Thursday, August 20, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-08-20-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-08-20-Agenda.pdf
+
+[CITY OF PHOENIX]  Zoning Adjustment Hearing
+  Thursday, August 20, 2026  |  9:00 AM
+  City of Phoenix (see notice PDF for location/virtual link)
+  Agenda: https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/august/260820003.pdf
+  * HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING
+  * 2) Variance to reduce the front yard (east) setback to 3 feet. Minimum 20 feet required.
+  * Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To
+
+[MAG]  MAG Regional Council
+  Wednesday, August 26, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-08-26-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-08-26-Agenda.pdf
+
 [VALLEY METRO]  Valley Metro Board of Directors (RPTA & VMR)
-  Thursday, August 20, 2026  |  ~11:15 AM (estimate — verify)
+  Thursday, August 27, 2026  |  ~11:15 AM (estimate — verify)
   101 N. 1st Ave, Suite 1400, Phoenix AZ 85003
   Virtual: https://www.valleymetro.org/event/valley-metro-board-meetings
   Agenda: https://www.valleymetro.org/about/boards-directors/board-book
   Note: Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book — boards typically meet on the third Thursday of each month.
+
+[MAG]  MAG Transportation Safety Committee
+  Tuesday, September 1, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-09-01-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG Transportation Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-09-01-Agenda.pdf
+
+[MAG]  MAG ITS Committee
+  Wednesday, September 2, 2026  |  See agenda
+  302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)
+  Virtual: https://azmag.gov/About-Us/Calendar
+  Agenda: https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-09-02-Agenda.pdf
+  Note: Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-09-02-Agenda.pdf
