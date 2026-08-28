@@ -1301,7 +1301,7 @@ def write_digest(meetings: list[Meeting]) -> None:
     lines = [
         f"PHOENIX-AREA POLICY MEETINGS — Week of {today_str}",
         "Urban Phoenix Project & Valley Urban Action Alliance",
-        "Full tracker: https://upp-vuaa.github.io/meetings",
+        "Full tracker: https://urbanphoenixproject.github.io/meetings",
         "=" * 62, "",
     ]
     for m in meetings:
