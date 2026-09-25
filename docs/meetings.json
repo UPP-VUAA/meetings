@@ -1,93 +1,21 @@
 {
-  "generated": "2026-09-18T17:32:19.757496",
+  "generated": "2026-09-25T18:15:33.110338",
   "window_days": 28,
-  "count": 15,
+  "count": 13,
   "meetings": [
     {
-      "body": "Mayor's Commission on Disability Issues, Vote the Spectrum Nonpartisan Speakers + Self-Advocate Panel Event",
-      "date": "2026-09-22",
-      "time": "3:30 PM",
+      "body": "Planning Commission",
+      "date": "2026-10-01",
+      "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/september/260922003.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "City Council Formal Meeting",
-      "date": "2026-09-23",
-      "time": "2:30 PM",
-      "location": "phoenix.gov",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/september/260923001.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Community Services and Education Subcommittee",
-      "date": "2026-09-23",
-      "time": "10:00 AM",
-      "location": "City Council Chambers",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/september/260923002.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "MAG Regional Council",
-      "date": "2026-09-23",
-      "time": "See agenda",
-      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
-      "virtual_url": "https://azmag.gov/About-Us/Calendar",
-      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-09-23-Agenda.pdf",
-      "source_label": "MAG",
-      "relevant_items": [],
-      "notes": "Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-09-23-Agenda.pdf"
-    },
-    {
-      "body": "Mayor's Commission on Disability Issues D.A.R.E. Planning Committee Special Meeting",
-      "date": "2026-09-23",
-      "time": "3:00 PM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/september/260923006.pdf",
-      "source_label": "City of Phoenix",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
-      "date": "2026-09-24",
-      "time": "9:00 AM",
-      "location": "301 W. Jefferson St., Phoenix AZ 85003",
-      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
-      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_09242026-3854?html=true",
-      "source_label": "Maricopa County",
-      "relevant_items": [],
-      "notes": ""
-    },
-    {
-      "body": "Zoning Adjustment Hearing",
-      "date": "2026-09-24",
-      "time": "9:00 AM",
-      "location": "City of Phoenix (see notice PDF for location/virtual link)",
-      "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/september/260924001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261001003.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "title": "Item 1: For Approval or Correction of the Planning Commission Hearing minutes of September 3, 2026. GENERAL PLAN AMENDMENTS AND COMPANION CASES",
           "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
-          "matched_keywords": [
-            "zoning"
+            "general plan"
           ]
         }
       ],
@@ -168,15 +96,36 @@
       "notes": "Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-10-08-Agenda.pdf"
     },
     {
-      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "body": "Zoning Adjustment Hearing",
       "date": "2026-10-08",
-      "time": "~11:15 AM (estimate \u2014 verify)",
-      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
-      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
-      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
-      "source_label": "Valley Metro",
-      "relevant_items": [],
-      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261008001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 12: Application #: ZA-32-26-4 Existing Zoning: R-3 Location: 2347 West Coolidge Street Quarter Section: Q18-23 Proposal: 1) Variance to reduce the required parking to 10 spaces. Minimum 11 spaces required.",
+          "matched_keywords": [
+            "zoning",
+            "variance",
+            "parking"
+          ]
+        },
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Management Committee",
@@ -199,6 +148,50 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-10-15-Agenda.pdf"
+    },
+    {
+      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "date": "2026-10-15",
+      "time": "~11:15 AM (estimate \u2014 verify)",
+      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
+      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
+      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
+      "source_label": "Valley Metro",
+      "relevant_items": [],
+      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+    },
+    {
+      "body": "MAG Active Transportation Committee",
+      "date": "2026-10-20",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-10-20-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Active Transportation Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ATC/ATC-2026-10-20-Agenda.pdf"
+    },
+    {
+      "body": "MAG Transportation Policy Committee",
+      "date": "2026-10-21",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-10-21-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Transportation Policy Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TPC/TPC-2026-10-21-Agenda.pdf"
+    },
+    {
+      "body": "Transportation, Infrastructure, and Planning (TIP) Subcommittee - Revised Annual Notice",
+      "date": "2026-10-21",
+      "time": "10:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261021001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
     }
   ]
 }
