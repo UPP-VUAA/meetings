@@ -1,49 +1,30 @@
 {
-  "generated": "2026-09-25T18:15:33.110338",
+  "generated": "2026-10-02T19:01:12.126950",
   "window_days": 28,
-  "count": 13,
+  "count": 22,
   "meetings": [
     {
-      "body": "Planning Commission",
-      "date": "2026-10-01",
+      "body": "Deer Valley Village Planning Committee",
+      "date": "2026-10-05",
       "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261001003.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261005003.pdf",
       "source_label": "City of Phoenix",
-      "relevant_items": [
-        {
-          "title": "Item 1: For Approval or Correction of the Planning Commission Hearing minutes of September 3, 2026. GENERAL PLAN AMENDMENTS AND COMPANION CASES",
-          "matched_keywords": [
-            "general plan"
-          ]
-        }
-      ],
+      "relevant_items": [],
       "notes": ""
     },
     {
-      "body": "Zoning Adjustment Hearing",
-      "date": "2026-10-01",
-      "time": "9:00 AM",
+      "body": "Encanto Village Planning Committee",
+      "date": "2026-10-05",
+      "time": "6:00 PM",
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
-      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261001001.pdf",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261005002.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [
         {
-          "title": "Item 3: Application #: ZA-647-26-1 Existing Zoning: PSC Location: 4322 West Bell Road Quarter Section: Q37-18 Proposal: 1) Use permit to allow second hand or used merchandise sales. Use permit required.",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
-          "matched_keywords": [
-            "zoning"
-          ]
-        },
-        {
-          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "title": "zoning/villages/encanto.",
           "matched_keywords": [
             "zoning"
           ]
@@ -63,6 +44,24 @@
       "notes": "Estimated meeting date based on typical MAG Regional Council Executive Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/EC/EC-2026-10-05-Agenda.pdf"
     },
     {
+      "body": "Camelback East Village Planning Committee",
+      "date": "2026-10-06",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261006003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "zoning/villages/camelback-east.",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "MAG Transportation Safety Committee",
       "date": "2026-10-06",
       "time": "See agenda",
@@ -72,6 +71,100 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Transportation Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/TSC/TSC-2026-10-06-Agenda.pdf"
+    },
+    {
+      "body": "City Council Formal Meeting",
+      "date": "2026-10-07",
+      "time": "2:30 PM",
+      "location": "phoenix.gov",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261007001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "Item 44: Growth Projections and Land Use Assumptions Update",
+          "matched_keywords": [
+            "land use"
+          ]
+        },
+        {
+          "title": "Item 64: Permit, License, Utility, and Land Use Agreement",
+          "matched_keywords": [
+            "land use"
+          ]
+        },
+        {
+          "title": "Item 73: Amend City Code - Official Supplementary Zoning Map",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "Item 77: Amend City Code - Ordinance Adoption - Rezoning",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "Item 78: Formal Action - PCD Major Amendment - Rezoning",
+          "matched_keywords": [
+            "rezoning"
+          ]
+        },
+        {
+          "title": "Volunteerism, Arizona Health Corps and Environmental",
+          "matched_keywords": [
+            "environmental"
+          ]
+        },
+        {
+          "title": "and Enter into an Agreement for Fiscal Year 2027 State",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "Housing Trust Fund Housing Solutions Grant Funds",
+          "matched_keywords": [
+            "housing"
+          ]
+        },
+        {
+          "title": "Government Pass-Through Grant for Federal Fiscal",
+          "matched_keywords": [
+            "fiscal"
+          ]
+        },
+        {
+          "title": "Vision Zero Community Advisory Committee",
+          "matched_keywords": [
+            "vision zero"
+          ]
+        },
+        {
+          "title": "Zoning Classification: C-3",
+          "matched_keywords": [
+            "zoning",
+            "ada",
+            "affordable housing",
+            "bicycle",
+            "budget",
+            "capital improvement",
+            "environment",
+            "environmental",
+            "fiscal",
+            "housing",
+            "land use",
+            "mobility",
+            "parking",
+            "pedestrian",
+            "transit",
+            "transportation",
+            "trees"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG ITS Committee",
@@ -85,6 +178,49 @@
       "notes": "Estimated meeting date based on typical MAG ITS Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ITS/ITS-2026-10-07-Agenda.pdf"
     },
     {
+      "body": "Site Plan Review Team: 8800 South 26th Street",
+      "date": "2026-10-07",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261007003.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Environmental Quality and Sustainability Commission",
+      "date": "2026-10-08",
+      "time": "2:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261008006.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "ENVIRONMENTAL QUALITY AND SUSTAINABILITY COMMISSION and to the",
+          "matched_keywords": [
+            "environmental",
+            "sustainability"
+          ]
+        },
+        {
+          "title": "general public, that the ENVIRONMENTAL QUALITY AND SUSTAINABILITY",
+          "matched_keywords": [
+            "environmental",
+            "sustainability"
+          ]
+        },
+        {
+          "title": "oepinfo@phoenix.gov, or call Office of Environmental Programs at 602-256-5669.",
+          "matched_keywords": [
+            "environmental"
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    {
       "body": "MAG Environment & Sustainable Communities",
       "date": "2026-10-08",
       "time": "See agenda",
@@ -94,6 +230,28 @@
       "source_label": "MAG",
       "relevant_items": [],
       "notes": "Estimated meeting date based on typical MAG Environment & Sustainable Communities schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/ESCC/ESCC-2026-10-08-Agenda.pdf"
+    },
+    {
+      "body": "North Gateway Village Planning Committee",
+      "date": "2026-10-08",
+      "time": "6:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261008004.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Planning and Zoning Commission Meeting - BOS Auditorium & GoTo Webinar",
+      "date": "2026-10-08",
+      "time": "9:00 AM",
+      "location": "301 W. Jefferson St., Phoenix AZ 85003",
+      "virtual_url": "https://www.maricopa.gov/324 (see agenda for GoToWebinar access code)",
+      "agenda_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Agenda/_10082026-3864?html=true",
+      "source_label": "Maricopa County",
+      "relevant_items": [],
+      "notes": ""
     },
     {
       "body": "Zoning Adjustment Hearing",
@@ -150,15 +308,53 @@
       "notes": "Estimated meeting date based on typical MAG Human Services & Public Safety Committee schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/HSPS/HSPS-2026-10-15-Agenda.pdf"
     },
     {
-      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "body": "Zoning Adjustment Hearing",
       "date": "2026-10-15",
-      "time": "~11:15 AM (estimate \u2014 verify)",
-      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
-      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
-      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
-      "source_label": "Valley Metro",
-      "relevant_items": [],
-      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+      "time": "9:00 AM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261012001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [
+        {
+          "title": "HEARING OFFICER and to the general public, that the CITY OF PHOENIX ZONING",
+          "matched_keywords": [
+            "zoning"
+          ]
+        },
+        {
+          "title": "3) Variance to allow a medical marijuana dispensary facility within 500 feet of R-4 and R-4A residential zoning districts.",
+          "matched_keywords": [
+            "variance",
+            "zoning"
+          ]
+        },
+        {
+          "title": "2) Variance to reduce the front yard (west) setback (Lot 99A) to 13 feet. Minimum 20 feet required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "3) Variance to reduce the rear yard (east) setback (Lot 99A) to 10 feet. Minimum 15 feet required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "5) Variance to reduce the minimum lot depth (Lot 99B) to 73 feet. Minimum 94 feet required.",
+          "matched_keywords": [
+            "variance"
+          ]
+        },
+        {
+          "title": "Department at 602-262-7927 or via electronic mail at zoning.adjustment@phoenix.gov. To",
+          "matched_keywords": [
+            "zoning"
+          ]
+        }
+      ],
+      "notes": ""
     },
     {
       "body": "MAG Active Transportation Committee",
@@ -189,6 +385,39 @@
       "location": "City of Phoenix (see notice PDF for location/virtual link)",
       "virtual_url": "",
       "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261021001.pdf",
+      "source_label": "City of Phoenix",
+      "relevant_items": [],
+      "notes": ""
+    },
+    {
+      "body": "Valley Metro Board of Directors (RPTA & VMR)",
+      "date": "2026-10-22",
+      "time": "~11:15 AM (estimate \u2014 verify)",
+      "location": "101 N. 1st Ave, Suite 1400, Phoenix AZ 85003",
+      "virtual_url": "https://www.valleymetro.org/event/valley-metro-board-meetings",
+      "agenda_url": "https://www.valleymetro.org/about/boards-directors/board-book",
+      "source_label": "Valley Metro",
+      "relevant_items": [],
+      "notes": "Valley Metro's website requires a manual check for confirmed dates and agenda. Visit valleymetro.org/about/boards-directors/board-book \u2014 boards typically meet on the third Thursday of each month."
+    },
+    {
+      "body": "MAG Regional Council",
+      "date": "2026-10-28",
+      "time": "See agenda",
+      "location": "302 N. 1st Ave, Suite 300, Phoenix AZ 85003 (hybrid)",
+      "virtual_url": "https://azmag.gov/About-Us/Calendar",
+      "agenda_url": "https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-10-28-Agenda.pdf",
+      "source_label": "MAG",
+      "relevant_items": [],
+      "notes": "Estimated meeting date based on typical MAG Regional Council schedule. Confirm at azmag.gov/About-Us/Calendar. Agenda PDF (if posted): https://azmag.gov/Portals/0/Committee-Meetings/2026/RC/RC-2026-10-28-Agenda.pdf"
+    },
+    {
+      "body": "The Mayor's Commission on Disability Issues (MCDI) Disability Awards and Recognition Event (DARE)",
+      "date": "2026-10-29",
+      "time": "3:00 PM",
+      "location": "City of Phoenix (see notice PDF for location/virtual link)",
+      "virtual_url": "",
+      "agenda_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/publicmeetings/notices/2026/october/261029001.pdf",
       "source_label": "City of Phoenix",
       "relevant_items": [],
       "notes": ""
